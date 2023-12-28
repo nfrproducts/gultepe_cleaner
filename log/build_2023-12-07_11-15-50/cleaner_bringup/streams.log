@@ -1,0 +1,44 @@
+[0.335s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup
+[0.674s] -- The C compiler identification is GNU 11.4.0
+[1.063s] -- The CXX compiler identification is GNU 11.4.0
+[1.106s] -- Detecting C compiler ABI info
+[1.416s] -- Detecting C compiler ABI info - done
+[1.456s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.464s] -- Detecting C compile features
+[1.467s] -- Detecting C compile features - done
+[1.480s] -- Detecting CXX compiler ABI info
+[1.843s] -- Detecting CXX compiler ABI info - done
+[1.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.884s] -- Detecting CXX compile features
+[1.886s] -- Detecting CXX compile features - done
+[1.906s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.735s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.962s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.375s] -- Configuring done
+[3.380s] -- Generating done
+[3.382s] -- Build files have been written to: /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup
+[3.389s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup
+[3.393s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup -- -j12 -l12
+[3.550s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup -- -j12 -l12
+[3.653s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup
+[3.683s] -- Install configuration: ""
+[3.685s] -- Execute custom install script
+[3.687s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/cleaner_gazebo.launch.xml
+[3.725s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/display.launch.py
+[3.773s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/display.launch.xml
+[3.810s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/ament_index/resource_index/package_run_dependencies/cleaner_bringup
+[3.851s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/ament_index/resource_index/parent_prefix_path/cleaner_bringup
+[3.887s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/environment/ament_prefix_path.sh
+[3.923s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/environment/ament_prefix_path.dsv
+[3.965s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/environment/path.sh
+[4.002s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/environment/path.dsv
+[4.043s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/local_setup.bash
+[4.080s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/local_setup.sh
+[4.117s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/local_setup.zsh
+[4.158s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/local_setup.dsv
+[4.194s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.dsv
+[4.232s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/ament_index/resource_index/packages/cleaner_bringup
+[4.271s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/cmake/cleaner_bringupConfig.cmake
+[4.310s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/cmake/cleaner_bringupConfig-version.cmake
+[4.348s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.xml
+[4.392s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup

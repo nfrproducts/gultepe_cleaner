@@ -1,0 +1,1 @@
+/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup/ament_cmake_environment_hooks/local_setup.sh
