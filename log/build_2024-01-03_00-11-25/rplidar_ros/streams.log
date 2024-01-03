@@ -1,0 +1,17 @@
+[1.858s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros
+[1.867s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.159s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.226s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.232s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.245s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.428s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.433s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.912s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.093s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.222s] -- Configuring done
+[3.249s] -- Generating done
+[3.253s] -- Build files have been written to: /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros

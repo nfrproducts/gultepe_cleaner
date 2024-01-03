@@ -1,0 +1,24 @@
+[0.669s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[1.434s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.437s] -- Configuring done
+[1.437s] -- Generating done
+[1.437s] -- Build files have been written to: /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description
+[1.447s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[1.522s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description
+[1.545s] -- Install configuration: ""
+[1.547s] -- Execute custom install script
+[1.555s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/cleaner.urdf.xacro
+[1.556s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/common.xacro
+[1.557s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base.xacro
+[1.559s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base_gazebo.xacro
+[1.559s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//rviz/cleaner_default.rviz
+[1.561s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.562s]   ament_cmake_symlink_install_directory() can't find
+[1.563s]   '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description/config'
+[1.563s] Call Stack (most recent call first):
+[1.564s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.564s]   cmake_install.cmake:46 (include)
+[1.564s] 
+[1.565s] [0m
+[1.565s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description

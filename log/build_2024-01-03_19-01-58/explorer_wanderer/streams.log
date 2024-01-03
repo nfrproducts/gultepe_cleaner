@@ -1,0 +1,25 @@
+[16.579s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/install.log --install-scripts $base/lib/explorer_wanderer --single-version-externally-managed
+[18.596s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[18.596s]   warnings.warn(
+[18.845s] running egg_info
+[18.846s] writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+[18.847s] writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+[18.858s] writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+[18.860s] writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+[18.861s] writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+[18.900s] reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[18.919s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[18.920s] running build
+[18.921s] running build_py
+[18.921s] running install
+[18.924s] running install_lib
+[18.929s] running install_data
+[18.931s] running install_egg_info
+[18.935s] removing '/home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info' (and everything under it)
+[18.936s] Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+[18.938s] running install_scripts
+[19.040s] Installing discoverer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[19.042s] Installing wanderer script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[19.044s] Installing wanderer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[19.046s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/install.log'
+[21.222s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/install.log --install-scripts $base/lib/explorer_wanderer --single-version-externally-managed

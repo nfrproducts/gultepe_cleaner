@@ -1,0 +1,22 @@
+[19.766s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_navigation2': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_navigation2 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log --install-scripts $base/lib/explorer_navigation2 --single-version-externally-managed
+[21.746s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[21.747s]   warnings.warn(
+[21.980s] running egg_info
+[21.986s] writing ../../../build/explorer_navigation2/explorer_navigation2.egg-info/PKG-INFO
+[21.989s] writing dependency_links to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/dependency_links.txt
+[21.990s] writing entry points to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/entry_points.txt
+[21.993s] writing requirements to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/requires.txt
+[21.998s] writing top-level names to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/top_level.txt
+[22.016s] reading manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+[22.023s] writing manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+[22.027s] running build
+[22.028s] running build_py
+[22.029s] running install
+[22.038s] running install_lib
+[22.053s] running install_data
+[22.062s] running install_egg_info
+[22.071s] removing '/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2-0.0.0-py3.10.egg-info' (and everything under it)
+[22.072s] Copying ../../../build/explorer_navigation2/explorer_navigation2.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2-0.0.0-py3.10.egg-info
+[22.073s] running install_scripts
+[22.201s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log'
+[23.448s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_navigation2' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_navigation2 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log --install-scripts $base/lib/explorer_navigation2 --single-version-externally-managed

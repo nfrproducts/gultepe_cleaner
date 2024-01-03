@@ -1,0 +1,458 @@
+[1.821s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.821s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb29a6ca980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb29a910c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb29a910c10>>)
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.902s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shared/projects/gultepe/cleaner_ws'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[1.927s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ignore'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ignore_ament_install'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['colcon_pkg']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'colcon_pkg'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['colcon_meta']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'colcon_meta'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['ros']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ros'
+[1.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaner_bringup' with type 'ros.ament_cmake' and name 'cleaner_bringup'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ignore_ament_install'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['colcon_meta']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'colcon_meta'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['ros']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ros'
+[1.931s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaner_description' with type 'ros.ament_cmake' and name 'cleaner_description'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[1.935s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[1.938s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/tunaprogrammer/projects/gultepe/cleaner_ws/install
+[2.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tunaprogrammer/projects/gultepe/humble_ws/install
+[2.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[2.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.409s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[2.410s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.410s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/bno055', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_target' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'cleaner_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.437s] DEBUG:colcon.colcon_core.verb:Building package 'cleaner_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description', 'symlink_install': False, 'test_result_base': None}
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.464s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/explore', 'symlink_install': False, 'test_result_base': None}
+[2.490s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[2.490s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.491s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.491s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/map_merge', 'symlink_install': False, 'test_result_base': None}
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.517s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.518s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_args' from command line to 'None'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_target' from command line to 'None'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.544s] Level 5:colcon.colcon_core.verb:set package 'cleaner_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.544s] DEBUG:colcon.colcon_core.verb:Building package 'cleaner_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup', 'merge_install': False, 'path': '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.571s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description' with build type 'ament_cmake'
+[2.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description'
+[2.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.742s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/bno055' with build type 'ament_python'
+[2.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[2.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[2.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/explore'
+[2.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[3.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shared/projects/gultepe/cleaner_ws/src/m-explore-ros2/map_merge'
+[3.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros' with build type 'ament_cmake'
+[3.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros'
+[3.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[3.794s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shared/projects/gultepe/cleaner_ws/src/bno055'
+[3.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explore_lite -- -j12 -l12
+[3.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge -- -j12 -l12
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros -- -j12 -l12
+[3.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[4.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description
+[4.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaner_description)
+[4.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description' for CMake module files
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description' for CMake config files
+[4.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaner_description', 'cmake_prefix_path')
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.ps1'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.dsv'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.sh'
+[4.162s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/bin'
+[4.162s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/lib/pkgconfig/cleaner_description.pc'
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/lib/python3.10/site-packages'
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/bin'
+[4.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.ps1'
+[4.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.dsv'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.sh'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.bash'
+[4.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.zsh'
+[4.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/colcon-core/packages/cleaner_description)
+[4.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explore_lite -- -j12 -l12
+[4.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge -- -j12 -l12
+[4.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros -- -j12 -l12
+[4.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaner_description)
+[4.292s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description' for CMake module files
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description' for CMake config files
+[4.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaner_description', 'cmake_prefix_path')
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.ps1'
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/hook/cmake_prefix_path.sh'
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/bin'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/lib/pkgconfig/cleaner_description.pc'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/lib/python3.10/site-packages'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/bin'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.ps1'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.dsv'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.sh'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.bash'
+[4.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.zsh'
+[4.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/colcon-core/packages/cleaner_description)
+[4.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup' with build type 'ament_cmake'
+[4.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup'
+[4.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros
+[4.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explore_lite
+[4.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explore_lite:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup -- -j12 -l12
+[4.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[4.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/multirobot_map_merge
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge' for CMake module files
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge' for CMake config files
+[4.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[4.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[4.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[4.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[4.622s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/bin'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/bin'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[4.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[4.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[4.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[4.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[4.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/bno055': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/bno055/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/bno055/build install --record /home/shared/projects/gultepe/cleaner_ws/build/bno055/install.log --single-version-externally-managed
+[4.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explore_lite:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup -- -j12 -l12
+[4.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explore_lite
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite' for CMake module files
+[4.694s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite' for CMake config files
+[4.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[4.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[4.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[4.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib'
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/bin'
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib/python3.10/site-packages'
+[4.725s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/bin'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.ps1'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.dsv'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.sh'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.bash'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.zsh'
+[4.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[4.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[4.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros
+[4.792s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros' for CMake module files
+[4.793s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros' for CMake config files
+[4.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/bin'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/bin'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[4.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[4.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge' for CMake module files
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge' for CMake config files
+[4.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[4.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[4.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[4.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib'
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/bin'
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[4.940s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/bin'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[4.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[4.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[4.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[4.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[4.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explore_lite:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup
+[5.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite' for CMake module files
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite' for CMake config files
+[5.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[5.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[5.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[5.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib'
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/bin'
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[5.058s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib/python3.10/site-packages'
+[5.058s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/bin'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.ps1'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.dsv'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.sh'
+[5.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.bash'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.zsh'
+[5.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[5.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros' for CMake module files
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros' for CMake config files
+[5.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/bin'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[5.190s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/bin'
+[5.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaner_bringup)
+[5.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explore_lite:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup
+[5.252s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup' for CMake module files
+[5.253s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup' for CMake config files
+[5.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaner_bringup', 'cmake_prefix_path')
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.ps1'
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.dsv'
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.sh'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/bin'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/lib/pkgconfig/cleaner_bringup.pc'
+[5.282s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/lib/python3.10/site-packages'
+[5.282s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/bin'
+[5.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.ps1'
+[5.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.dsv'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.sh'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.bash'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.zsh'
+[5.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/colcon-core/packages/cleaner_bringup)
+[5.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/bno055' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/bno055/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/bno055/build install --record /home/shared/projects/gultepe/cleaner_ws/build/bno055/install.log --single-version-externally-managed
+[5.340s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055' for CMake module files
+[5.341s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055' for CMake config files
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib'
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055/bin'
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages'
+[5.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[5.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[5.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/bno055/bin'
+[5.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[5.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/package.ps1'
+[5.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/package.dsv'
+[5.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/package.sh'
+[5.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/package.bash'
+[5.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/bno055/package.zsh'
+[5.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/bno055/share/colcon-core/packages/bno055)
+[5.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cleaner_bringup)
+[5.457s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup' for CMake module files
+[5.457s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup' for CMake config files
+[5.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('cleaner_bringup', 'cmake_prefix_path')
+[5.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.ps1'
+[5.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.dsv'
+[5.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/hook/cmake_prefix_path.sh'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/bin'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/lib/pkgconfig/cleaner_bringup.pc'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/lib/python3.10/site-packages'
+[5.486s] Level 1:colcon.colcon_core.environment:checking '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/bin'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.ps1'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.dsv'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.sh'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.bash'
+[5.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/package.zsh'
+[5.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/colcon-core/packages/cleaner_bringup)
+[5.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.517s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.552s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.552s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.552s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.570s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.597s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.ps1'
+[5.598s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shared/projects/gultepe/cleaner_ws/install/_local_setup_util_ps1.py'
+[5.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.ps1'
+[5.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.sh'
+[5.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shared/projects/gultepe/cleaner_ws/install/_local_setup_util_sh.py'
+[5.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.sh'
+[5.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.bash'
+[5.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.bash'
+[5.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.zsh'
+[5.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.zsh'

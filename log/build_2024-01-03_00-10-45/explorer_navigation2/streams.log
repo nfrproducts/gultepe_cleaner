@@ -1,0 +1,24 @@
+[2.982s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build --no-deps install_data
+[3.288s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.288s]   warnings.warn(
+[3.346s] running develop
+[3.564s] running egg_info
+[3.565s] writing explorer_navigation2.egg-info/PKG-INFO
+[3.565s] writing dependency_links to explorer_navigation2.egg-info/dependency_links.txt
+[3.565s] writing entry points to explorer_navigation2.egg-info/entry_points.txt
+[3.566s] writing requirements to explorer_navigation2.egg-info/requires.txt
+[3.566s] writing top-level names to explorer_navigation2.egg-info/top_level.txt
+[3.567s] reading manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+[3.568s] writing manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+[3.570s] running build_ext
+[3.570s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer-navigation2.egg-link (link to .)
+[3.571s] 
+[3.571s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2
+[3.571s] running install_data
+[3.571s] copying resource/explorer_navigation2 -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+[3.572s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2
+[3.572s] copying launch/nav.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+[3.573s] copying rviz/nav2.rviz -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+[3.573s] copying param/burger.yaml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+[3.574s] copying behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+[3.574s] copying behavior_trees/navigate_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees

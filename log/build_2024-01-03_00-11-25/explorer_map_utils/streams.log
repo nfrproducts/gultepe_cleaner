@@ -1,0 +1,5 @@
+[2.964s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/build
+[3.346s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.346s]   warnings.warn(
+[3.404s] running develop
+[3.627s] Removing /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages/explorer-map-utils.egg-link (link to .)

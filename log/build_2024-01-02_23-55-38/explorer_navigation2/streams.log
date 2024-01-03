@@ -1,0 +1,44 @@
+[4.768s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_navigation2': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_navigation2 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log --install-scripts $base/lib/explorer_navigation2 --single-version-externally-managed
+[5.190s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.190s]   warnings.warn(
+[5.248s] running egg_info
+[5.249s] creating ../../../build/explorer_navigation2/explorer_navigation2.egg-info
+[5.249s] writing ../../../build/explorer_navigation2/explorer_navigation2.egg-info/PKG-INFO
+[5.249s] writing dependency_links to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/dependency_links.txt
+[5.250s] writing entry points to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/entry_points.txt
+[5.250s] writing requirements to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/requires.txt
+[5.250s] writing top-level names to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/top_level.txt
+[5.250s] writing manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+[5.255s] reading manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+[5.257s] writing manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+[5.257s] running build
+[5.257s] running build_py
+[5.257s] creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build
+[5.258s] creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib
+[5.258s] creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2
+[5.258s] copying explorer_navigation2/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2
+[5.258s] running install
+[5.259s] running install_lib
+[5.259s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2
+[5.260s] copying /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2
+[5.260s] byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2/__init__.py to __init__.cpython-310.pyc
+[5.261s] running install_data
+[5.262s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index
+[5.262s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index
+[5.262s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+[5.262s] copying resource/explorer_navigation2 -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+[5.263s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2
+[5.263s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+[5.263s] copying launch/nav.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+[5.264s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+[5.264s] copying rviz/nav2.rviz -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+[5.264s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+[5.265s] copying param/burger.yaml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+[5.265s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+[5.265s] copying behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+[5.265s] copying behavior_trees/navigate_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+[5.266s] running install_egg_info
+[5.267s] Copying ../../../build/explorer_navigation2/explorer_navigation2.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2-0.0.0-py3.10.egg-info
+[5.268s] running install_scripts
+[5.311s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log'
+[5.475s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_navigation2' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_navigation2 build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log --install-scripts $base/lib/explorer_navigation2 --single-version-externally-managed

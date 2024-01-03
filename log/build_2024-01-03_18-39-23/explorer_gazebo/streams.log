@@ -1,0 +1,71 @@
+[8.548s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo -- -j12 -l12
+[16.145s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo -- -j12 -l12
+[16.348s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo
+[16.416s] -- Install configuration: ""
+[16.430s] -- Execute custom install script
+[16.448s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/map1.sdf
+[16.452s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/model.config
+[16.455s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/map10.sdf
+[16.457s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/model.config
+[16.471s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/map11.sdf
+[16.472s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/model.config
+[16.473s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/map2.sdf
+[16.480s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/model.config
+[16.481s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/map3.sdf
+[16.489s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/model.config
+[16.490s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/map4.sdf
+[16.492s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/model.config
+[16.493s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/map5.sdf
+[16.493s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/model.config
+[16.496s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/map6.sdf
+[16.497s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/model.config
+[16.498s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/map7.sdf
+[16.499s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/model.config
+[16.500s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/map8.sdf
+[16.502s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/model.config
+[16.507s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/map9.sdf
+[16.508s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/model.config
+[16.512s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[16.513s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[16.517s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[16.519s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[16.530s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.config
+[16.531s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.sdf
+[16.544s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map1.world.xml
+[16.552s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map10.world.xml
+[16.556s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map11.world.xml
+[16.560s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map2.world.xml
+[16.561s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map3.world.xml
+[16.565s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map4.world.xml
+[16.571s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map5.world.xml
+[16.573s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map6.world.xml
+[16.576s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map7.world.xml
+[16.584s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map8.world.xml
+[16.589s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map9.world.xml
+[16.593s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map1.csv
+[16.595s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map10.csv
+[16.597s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map11.csv
+[16.611s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map2.csv
+[16.612s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map3.csv
+[16.626s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map4.csv
+[16.627s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map5.csv
+[16.628s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map6.csv
+[16.629s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map7.csv
+[16.631s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map8.csv
+[16.634s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map9.csv
+[16.635s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/ament_index/resource_index/package_run_dependencies/explorer_gazebo
+[16.645s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/ament_index/resource_index/parent_prefix_path/explorer_gazebo
+[16.647s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.sh
+[16.693s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.dsv
+[16.695s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.sh
+[16.695s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.dsv
+[16.696s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.bash
+[16.698s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.sh
+[16.703s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.zsh
+[16.717s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.dsv
+[16.718s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/package.dsv
+[16.765s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/ament_index/resource_index/packages/explorer_gazebo
+[16.770s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig.cmake
+[16.771s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig-version.cmake
+[16.773s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/explorer_gazebo/share/explorer_gazebo/package.xml
+[17.823s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo

@@ -1,0 +1,31 @@
+[3.432s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build --no-deps install_data
+[3.758s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.758s]   warnings.warn(
+[3.813s] running develop
+[4.034s] running egg_info
+[4.034s] writing explorer_bringup.egg-info/PKG-INFO
+[4.034s] writing dependency_links to explorer_bringup.egg-info/dependency_links.txt
+[4.035s] writing entry points to explorer_bringup.egg-info/entry_points.txt
+[4.035s] writing requirements to explorer_bringup.egg-info/requires.txt
+[4.035s] writing top-level names to explorer_bringup.egg-info/top_level.txt
+[4.038s] reading manifest file 'explorer_bringup.egg-info/SOURCES.txt'
+[4.039s] writing manifest file 'explorer_bringup.egg-info/SOURCES.txt'
+[4.041s] running build_ext
+[4.041s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer-bringup.egg-link (link to .)
+[4.042s] Installing manager script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/explorer_bringup
+[4.043s] 
+[4.043s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup
+[4.043s] running install_data
+[4.043s] copying resource/explorer_bringup -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/ament_index/resource_index/packages
+[4.044s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.044s] copying launch/map9.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.044s] copying launch/map1.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.044s] copying launch/map5.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.045s] copying launch/map2.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.045s] copying launch/map6.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.045s] copying launch/map3.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.045s] copying launch/map4.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.046s] copying launch/map10.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.046s] copying launch/map8.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.046s] copying launch/map11.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.046s] copying launch/map7.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup

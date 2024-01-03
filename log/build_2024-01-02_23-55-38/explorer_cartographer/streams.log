@@ -1,0 +1,46 @@
+[2.270s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer
+[4.156s] -- The C compiler identification is GNU 11.4.0
+[4.156s] -- The CXX compiler identification is GNU 11.4.0
+[4.157s] -- Detecting C compiler ABI info
+[4.159s] -- Detecting C compiler ABI info - done
+[4.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.159s] -- Detecting C compile features
+[4.160s] -- Detecting C compile features - done
+[4.160s] -- Detecting CXX compiler ABI info
+[4.160s] -- Detecting CXX compiler ABI info - done
+[4.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.161s] -- Detecting CXX compile features
+[4.161s] -- Detecting CXX compile features - done
+[4.161s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.161s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.161s] -- Configuring done
+[4.162s] -- Generating done
+[4.162s] -- Build files have been written to: /home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer
+[4.210s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer
+[4.215s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer -- -j12 -l12
+[4.298s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer -- -j12 -l12
+[4.535s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer
+[4.699s] -- Install configuration: ""
+[4.702s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/config
+[4.705s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/config/turtlebot3_lds_2d.lua
+[4.706s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/launch
+[4.706s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/launch/occupancy_grid.launch.py
+[4.707s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/launch/cartographer.launch.py
+[4.707s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/rviz
+[4.708s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/rviz/tb3_cartographer.rviz
+[4.708s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/ament_index/resource_index/package_run_dependencies/explorer_cartographer
+[4.708s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/ament_index/resource_index/parent_prefix_path/explorer_cartographer
+[4.709s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.sh
+[4.709s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.dsv
+[4.710s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/environment/path.sh
+[4.710s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/environment/path.dsv
+[4.711s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.bash
+[4.711s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.sh
+[4.711s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.zsh
+[4.712s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/local_setup.dsv
+[4.712s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/package.dsv
+[4.712s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/ament_index/resource_index/packages/explorer_cartographer
+[4.713s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig.cmake
+[4.713s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig-version.cmake
+[4.714s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explorer_cartographer/share/explorer_cartographer/package.xml
+[4.716s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explorer_cartographer

@@ -1,0 +1,26 @@
+[0.463s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[1.100s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description -- -j12 -l12
+[1.149s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description
+[1.162s] -- Install configuration: ""
+[1.163s] -- Execute custom install script
+[1.163s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/cleaner.urdf.xacro
+[1.164s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/common.xacro
+[1.164s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base.xacro
+[1.164s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base_gazebo.xacro
+[1.165s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//rviz/cleaner_default.rviz
+[1.165s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/ament_index/resource_index/package_run_dependencies/cleaner_description
+[1.165s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/ament_index/resource_index/parent_prefix_path/cleaner_description
+[1.165s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/environment/ament_prefix_path.sh
+[1.166s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/environment/ament_prefix_path.dsv
+[1.166s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/environment/path.sh
+[1.166s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/environment/path.dsv
+[1.167s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/local_setup.bash
+[1.167s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/local_setup.sh
+[1.167s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/local_setup.zsh
+[1.167s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/local_setup.dsv
+[1.168s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.dsv
+[1.184s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/ament_index/resource_index/packages/cleaner_description
+[1.184s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/cmake/cleaner_descriptionConfig.cmake
+[1.184s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/cmake/cleaner_descriptionConfig-version.cmake
+[1.184s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/package.xml
+[1.188s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/cleaner_description

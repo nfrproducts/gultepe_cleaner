@@ -1,0 +1,54 @@
+[10.865s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros -- -j12 -l12
+[11.372s] [ 47%] Built target rplidar_composition
+[11.372s] [ 52%] Built target rplidar_client
+[11.426s] [100%] Built target rplidar_node
+[12.948s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros -- -j12 -l12
+[15.920s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros
+[16.760s] -- Install configuration: ""
+[16.761s] -- Execute custom install script
+[16.765s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[16.771s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[16.772s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[16.774s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[16.776s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[16.780s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[16.781s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[16.782s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[16.783s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[16.784s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[16.785s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[16.786s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[16.786s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[16.793s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[16.793s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[16.794s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[16.795s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[16.796s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[16.796s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[16.797s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[16.798s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[16.798s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[16.799s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[16.800s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[16.800s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[16.801s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[16.801s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[16.802s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[16.803s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[16.803s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[16.804s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[16.804s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[16.805s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[16.806s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[16.819s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[16.821s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[16.828s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[16.829s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[16.838s] -- Symlinking: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[16.839s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[16.840s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.840s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.841s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[16.841s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[16.842s] -- Up-to-date symlink: /home/shared/projects/gultepe/cleaner_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[16.848s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_wanderer:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_navigation2:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_map_utils:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/explorer_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/rplidar_ros

@@ -1,0 +1,20 @@
+[3.105s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/build --no-deps install_data
+[3.459s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.459s]   warnings.warn(
+[3.512s] running develop
+[3.741s] running egg_info
+[3.742s] writing explorer_map_utils.egg-info/PKG-INFO
+[3.742s] writing dependency_links to explorer_map_utils.egg-info/dependency_links.txt
+[3.743s] writing entry points to explorer_map_utils.egg-info/entry_points.txt
+[3.743s] writing requirements to explorer_map_utils.egg-info/requires.txt
+[3.743s] writing top-level names to explorer_map_utils.egg-info/top_level.txt
+[3.745s] reading manifest file 'explorer_map_utils.egg-info/SOURCES.txt'
+[3.746s] writing manifest file 'explorer_map_utils.egg-info/SOURCES.txt'
+[3.748s] running build_ext
+[3.749s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages/explorer-map-utils.egg-link (link to .)
+[3.750s] Installing watchtower script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/explorer_map_utils
+[3.750s] 
+[3.750s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils
+[3.750s] running install_data
+[3.750s] copying resource/explorer_map_utils -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/share/ament_index/resource_index/packages
+[3.751s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/share/explorer_map_utils

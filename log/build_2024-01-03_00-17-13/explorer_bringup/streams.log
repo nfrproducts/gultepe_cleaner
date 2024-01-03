@@ -1,0 +1,47 @@
+[3.356s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build
+[3.663s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.663s]   warnings.warn(
+[3.732s] running develop
+[4.114s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build
+[4.115s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_bringup': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/install.log --install-scripts $base/lib/explorer_bringup --single-version-externally-managed
+[4.443s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.443s]   warnings.warn(
+[4.476s] running egg_info
+[4.477s] writing ../../../build/explorer_bringup/explorer_bringup.egg-info/PKG-INFO
+[4.477s] writing dependency_links to ../../../build/explorer_bringup/explorer_bringup.egg-info/dependency_links.txt
+[4.478s] writing entry points to ../../../build/explorer_bringup/explorer_bringup.egg-info/entry_points.txt
+[4.478s] writing requirements to ../../../build/explorer_bringup/explorer_bringup.egg-info/requires.txt
+[4.478s] writing top-level names to ../../../build/explorer_bringup/explorer_bringup.egg-info/top_level.txt
+[4.482s] reading manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+[4.487s] writing manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+[4.487s] running build
+[4.488s] running build_py
+[4.488s] copying explorer_bringup/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build/lib/explorer_bringup
+[4.489s] copying explorer_bringup/manager.py -> /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build/lib/explorer_bringup
+[4.489s] running install
+[4.489s] running install_lib
+[4.490s] creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+[4.490s] copying /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build/lib/explorer_bringup/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+[4.490s] copying /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build/lib/explorer_bringup/manager.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+[4.490s] byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup/__init__.py to __init__.cpython-310.pyc
+[4.490s] byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup/manager.py to manager.cpython-310.pyc
+[4.492s] running install_data
+[4.495s] copying resource/explorer_bringup -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/ament_index/resource_index/packages
+[4.496s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.496s] copying launch/map9.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.496s] copying launch/map1.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.496s] copying launch/map5.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.497s] copying launch/map2.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.497s] copying launch/map6.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.497s] copying launch/map3.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.497s] copying launch/map4.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.498s] copying launch/map10.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.498s] copying launch/map8.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.498s] copying launch/map11.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.498s] copying launch/map7.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/share/explorer_bringup
+[4.499s] running install_egg_info
+[4.500s] Copying ../../../build/explorer_bringup/explorer_bringup.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup-0.0.0-py3.10.egg-info
+[4.502s] running install_scripts
+[4.533s] Installing manager script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/explorer_bringup
+[4.534s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/install.log'
+[4.619s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_bringup' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/install.log --install-scripts $base/lib/explorer_bringup --single-version-externally-managed

@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing explorer_wanderer.egg-info/PKG-INFO
+writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt
+writing entry points to explorer_wanderer.egg-info/entry_points.txt
+writing requirements to explorer_wanderer.egg-info/requires.txt
+writing top-level names to explorer_wanderer.egg-info/top_level.txt
+reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)
+Installing discoverer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+Installing wanderer script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+Installing wanderer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+
+Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer
+running install_data
+copying resource/explorer_wanderer -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/share/explorer_wanderer

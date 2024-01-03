@@ -1,0 +1,1 @@
+/home/shared/projects/gultepe/cleaner_ws/build/explorer_interfaces/rosidl_typesupport_fastrtps_c/explorer_interfaces/action/detail/discover__rosidl_typesupport_fastrtps_c.h

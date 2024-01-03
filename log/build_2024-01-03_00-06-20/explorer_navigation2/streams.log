@@ -1,0 +1,17 @@
+[5.160s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build --no-deps install_data
+[5.751s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.751s]   warnings.warn(
+[5.835s] running develop
+[6.166s] running egg_info
+[6.166s] writing explorer_navigation2.egg-info/PKG-INFO
+[6.167s] writing dependency_links to explorer_navigation2.egg-info/dependency_links.txt
+[6.167s] writing entry points to explorer_navigation2.egg-info/entry_points.txt
+[6.167s] writing requirements to explorer_navigation2.egg-info/requires.txt
+[6.168s] writing top-level names to explorer_navigation2.egg-info/top_level.txt
+[6.171s] reading manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+[6.173s] writing manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+[6.175s] running build_ext
+[6.175s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer-navigation2.egg-link (link to .)
+[6.177s] 
+[6.177s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2
+[6.177s] running install_data

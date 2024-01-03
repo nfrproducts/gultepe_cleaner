@@ -1,0 +1,1 @@
+/home/shared/projects/gultepe/cleaner_ws/build/explorer_gazebo/ament_cmake_environment_hooks/local_setup.bash

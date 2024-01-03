@@ -1,0 +1,38 @@
+[1.029s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explore_lite -- -j12 -l12
+[1.116s] [35m[1mConsolidate compiler generated dependencies of target explore[0m
+[1.135s] [ 40%] Built target gtest
+[1.135s] [ 40%] Built target gtest_main
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target test_explore[0m
+[1.182s] [ 80%] Built target explore
+[1.190s] [100%] Built target test_explore
+[1.288s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/explore_lite -- -j12 -l12
+[1.615s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explore_lite
+[1.647s] -- Install configuration: ""
+[1.647s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/include/explore/
+[1.648s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/include/explore//explore.h
+[1.648s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/include/explore//costmap_client.h
+[1.648s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/include/explore//frontier_search.h
+[1.648s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/include/explore//costmap_tools.h
+[1.649s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/config
+[1.649s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[1.649s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[1.650s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/launch
+[1.650s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[1.653s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/lib/explore_lite/explore
+[1.654s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[1.655s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[1.655s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[1.655s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[1.656s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[1.656s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[1.656s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[1.656s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[1.657s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[1.657s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[1.657s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.dsv
+[1.657s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[1.658s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.658s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[1.658s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[1.658s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/explore_lite/share/explore_lite/package.xml
+[1.753s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/explore_lite

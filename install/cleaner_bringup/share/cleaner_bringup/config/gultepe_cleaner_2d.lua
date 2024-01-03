@@ -1,0 +1,1 @@
+/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup/config/gultepe_cleaner_2d.lua

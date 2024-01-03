@@ -1,0 +1,42 @@
+/home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/explorer_navigation2/explorer_navigation2.egg-info
+writing ../../../build/explorer_navigation2/explorer_navigation2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/dependency_links.txt
+writing entry points to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/entry_points.txt
+writing requirements to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/requires.txt
+writing top-level names to ../../../build/explorer_navigation2/explorer_navigation2.egg-info/top_level.txt
+writing manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/explorer_navigation2/explorer_navigation2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build
+creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib
+creating /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2
+copying explorer_navigation2/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2
+running install
+running install_lib
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2
+copying /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/build/lib/explorer_navigation2/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+copying resource/explorer_navigation2 -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+copying launch/nav.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+copying rviz/nav2.rviz -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+copying param/burger.yaml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+copying behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+copying behavior_trees/navigate_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+running install_egg_info
+Copying ../../../build/explorer_navigation2/explorer_navigation2.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer_navigation2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2/install.log'

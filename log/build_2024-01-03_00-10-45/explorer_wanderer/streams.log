@@ -1,0 +1,22 @@
+[2.883s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/build --no-deps install_data
+[3.189s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.189s]   warnings.warn(
+[3.246s] running develop
+[3.467s] running egg_info
+[3.467s] writing explorer_wanderer.egg-info/PKG-INFO
+[3.468s] writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt
+[3.468s] writing entry points to explorer_wanderer.egg-info/entry_points.txt
+[3.468s] writing requirements to explorer_wanderer.egg-info/requires.txt
+[3.468s] writing top-level names to explorer_wanderer.egg-info/top_level.txt
+[3.469s] reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[3.470s] writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[3.472s] running build_ext
+[3.472s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)
+[3.474s] Installing discoverer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.474s] Installing wanderer script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.474s] Installing wanderer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.475s] 
+[3.475s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer
+[3.475s] running install_data
+[3.475s] copying resource/explorer_wanderer -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[3.476s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/share/explorer_wanderer

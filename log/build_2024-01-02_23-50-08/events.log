@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000397] (-) JobUnselected: {'identifier': 'cleaner_bringup'}
+[0.000431] (-) JobUnselected: {'identifier': 'cleaner_description'}
+[0.000458] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000486] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000511] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000668] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[1.617s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/bno055': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/bno055/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/bno055/build --no-deps install_data
+[2.129s] running develop
+[2.437s] running egg_info
+[2.437s] writing bno055.egg-info/PKG-INFO
+[2.438s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[2.438s] writing entry points to bno055.egg-info/entry_points.txt
+[2.438s] writing requirements to bno055.egg-info/requires.txt
+[2.438s] writing top-level names to bno055.egg-info/top_level.txt
+[2.442s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[2.444s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[2.446s] running build_ext
+[2.446s] Creating /home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages/bno055.egg-link (link to .)
+[2.448s] Installing bno055 script to /home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/bno055
+[2.448s] 
+[2.448s] Installed /home/shared/projects/gultepe/cleaner_ws/build/bno055
+[2.449s] running install_data
+[2.497s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/bno055' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/bno055/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/bno055/build --no-deps install_data

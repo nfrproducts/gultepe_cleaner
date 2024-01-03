@@ -1,0 +1,5 @@
+[3.288s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build
+[3.638s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.639s]   warnings.warn(
+[3.698s] running develop
+[3.928s] Removing /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer-bringup.egg-link (link to .)

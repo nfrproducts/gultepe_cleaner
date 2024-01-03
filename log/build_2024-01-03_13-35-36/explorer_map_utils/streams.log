@@ -1,0 +1,23 @@
+[3.122s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_map_utils': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/install.log --install-scripts $base/lib/explorer_map_utils --single-version-externally-managed
+[3.438s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.438s]   warnings.warn(
+[3.473s] running egg_info
+[3.474s] writing ../../../build/explorer_map_utils/explorer_map_utils.egg-info/PKG-INFO
+[3.475s] writing dependency_links to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/dependency_links.txt
+[3.475s] writing entry points to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/entry_points.txt
+[3.475s] writing requirements to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/requires.txt
+[3.475s] writing top-level names to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/top_level.txt
+[3.478s] reading manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[3.479s] writing manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[3.480s] running build
+[3.480s] running build_py
+[3.481s] running install
+[3.481s] running install_lib
+[3.482s] running install_data
+[3.483s] running install_egg_info
+[3.485s] removing '/home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[3.485s] Copying ../../../build/explorer_map_utils/explorer_map_utils.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils-0.0.0-py3.10.egg-info
+[3.486s] running install_scripts
+[3.513s] Installing watchtower script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/explorer_map_utils
+[3.514s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/install.log'
+[3.753s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_map_utils' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/build install --record /home/shared/projects/gultepe/cleaner_ws/build/explorer_map_utils/install.log --install-scripts $base/lib/explorer_map_utils --single-version-externally-managed

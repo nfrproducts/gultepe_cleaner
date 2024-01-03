@@ -1,0 +1,18 @@
+[5.637s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup/build --no-deps install_data
+[6.194s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.194s]   warnings.warn(
+[6.284s] running develop
+[6.598s] running egg_info
+[6.599s] writing explorer_bringup.egg-info/PKG-INFO
+[6.599s] writing dependency_links to explorer_bringup.egg-info/dependency_links.txt
+[6.599s] writing entry points to explorer_bringup.egg-info/entry_points.txt
+[6.599s] writing requirements to explorer_bringup.egg-info/requires.txt
+[6.600s] writing top-level names to explorer_bringup.egg-info/top_level.txt
+[6.604s] reading manifest file 'explorer_bringup.egg-info/SOURCES.txt'
+[6.605s] writing manifest file 'explorer_bringup.egg-info/SOURCES.txt'
+[6.607s] running build_ext
+[6.608s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/python3.10/site-packages/explorer-bringup.egg-link (link to .)
+[6.609s] Installing manager script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_bringup/lib/explorer_bringup
+[6.609s] 
+[6.610s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_bringup
+[6.610s] running install_data

@@ -1,0 +1,20 @@
+[4.663s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer/build --no-deps install_data
+[5.363s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.364s]   warnings.warn(
+[5.497s] running develop
+[5.837s] running egg_info
+[5.838s] writing explorer_wanderer.egg-info/PKG-INFO
+[5.838s] writing dependency_links to explorer_wanderer.egg-info/dependency_links.txt
+[5.838s] writing entry points to explorer_wanderer.egg-info/entry_points.txt
+[5.839s] writing requirements to explorer_wanderer.egg-info/requires.txt
+[5.839s] writing top-level names to explorer_wanderer.egg-info/top_level.txt
+[5.841s] reading manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[5.842s] writing manifest file 'explorer_wanderer.egg-info/SOURCES.txt'
+[5.845s] running build_ext
+[5.845s] Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer-wanderer.egg-link (link to .)
+[5.846s] Installing discoverer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[5.846s] Installing wanderer script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[5.846s] Installing wanderer_server script to /home/shared/projects/gultepe/cleaner_ws/install/explorer_wanderer/lib/explorer_wanderer
+[5.847s] 
+[5.847s] Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_wanderer
+[5.847s] running install_data

@@ -1,0 +1,23 @@
+/home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+writing explorer_navigation2.egg-info/PKG-INFO
+writing dependency_links to explorer_navigation2.egg-info/dependency_links.txt
+writing entry points to explorer_navigation2.egg-info/entry_points.txt
+writing requirements to explorer_navigation2.egg-info/requires.txt
+writing top-level names to explorer_navigation2.egg-info/top_level.txt
+reading manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+writing manifest file 'explorer_navigation2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/lib/python3.10/site-packages/explorer-navigation2.egg-link (link to .)
+
+Installed /home/shared/projects/gultepe/cleaner_ws/build/explorer_navigation2
+running install_data
+copying resource/explorer_navigation2 -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/ament_index/resource_index/packages
+copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2
+copying launch/nav.launch.py -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/launch
+copying rviz/nav2.rviz -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/rviz
+copying param/burger.yaml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/param
+copying behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
+copying behavior_trees/navigate_w_replanning_and_recovery.xml -> /home/shared/projects/gultepe/cleaner_ws/install/explorer_navigation2/share/explorer_navigation2/behavior_trees
