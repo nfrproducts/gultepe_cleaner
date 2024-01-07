@@ -1,1 +1,0 @@
-/home/shared/projects/gultepe/cleaner_ws/build/explorer_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

@@ -1,1 +1,0 @@
-/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_cartographer/config/turtlebot3_lds_2d.lua

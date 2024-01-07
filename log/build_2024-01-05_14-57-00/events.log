@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000581] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000666] (-) JobUnselected: {'identifier': 'cleaner_bringup'}
+[0.000715] (-) JobUnselected: {'identifier': 'cleaner_description'}
+[0.000758] (-) JobUnselected: {'identifier': 'gultepe_scripts'}
+[0.000799] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000847] (gultepe_pkg) JobQueued: {'identifier': 'gultepe_pkg', 'dependencies': OrderedDict()}
+[0.000897] (gultepe_pkg) JobStarted: {'identifier': 'gultepe_pkg'}
+[0.098562] (-) TimerEvent: {}
+[0.200023] (-) TimerEvent: {}
+[0.301022] (-) TimerEvent: {}
+[0.401549] (-) TimerEvent: {}
+[0.502008] (-) TimerEvent: {}
+[0.602512] (-) TimerEvent: {}
+[0.703021] (-) TimerEvent: {}
+[0.803509] (-) TimerEvent: {}
+[0.904037] (-) TimerEvent: {}
+[1.004962] (-) TimerEvent: {}
+[1.106211] (-) TimerEvent: {}
+[1.206719] (-) TimerEvent: {}
+[1.307190] (-) TimerEvent: {}
+[1.407690] (-) TimerEvent: {}
+[1.508191] (-) TimerEvent: {}
+[1.608674] (-) TimerEvent: {}
+[1.709148] (-) TimerEvent: {}
+[1.809674] (-) TimerEvent: {}
+[1.910195] (-) TimerEvent: {}
+[2.010716] (-) TimerEvent: {}
+[2.072041] (gultepe_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/gultepe_pkg', 'build', '--build-base', '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build', 'install', '--record', '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_pkg', 'env': {'USER': 'tunaprogrammer', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src', 'HOME': '/home/tunaprogrammer', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '2819', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install:/home/tunaprogrammer/projects/gultepe/humble_ws/install', 'LOGNAME': 'tunaprogrammer', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'tunaprogrammer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tunaprogrammer/applications:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuna:@/tmp/.ICE-unix/2796,unix/ubuntuna:/tmp/.ICE-unix/2796', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/afca532e_0b82_4bc1_9ab2_f8fa7bcf0b40', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'tr_TR.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.103', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W8T5G2', 'LS_COLORS': 'ow=01;33', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces/local/lib/python3.10/dist-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg/lib/python3.10/site-packages:/home/shared/projects/gultepe/humble_ws/build/catcher:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces'}, 'shell': False}
+[2.110908] (-) TimerEvent: {}
+[2.211404] (-) TimerEvent: {}
+[2.311916] (-) TimerEvent: {}
+[2.412414] (-) TimerEvent: {}
+[2.512901] (-) TimerEvent: {}
+[2.613374] (-) TimerEvent: {}
+[2.713924] (-) TimerEvent: {}
+[2.718480] (gultepe_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.719719] (gultepe_pkg) StdoutLine: {'line': b'creating ../../build/gultepe_pkg/gultepe_pkg.egg-info\n'}
+[2.720263] (gultepe_pkg) StdoutLine: {'line': b'writing ../../build/gultepe_pkg/gultepe_pkg.egg-info/PKG-INFO\n'}
+[2.720818] (gultepe_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/gultepe_pkg/gultepe_pkg.egg-info/dependency_links.txt\n'}
+[2.721226] (gultepe_pkg) StdoutLine: {'line': b'writing entry points to ../../build/gultepe_pkg/gultepe_pkg.egg-info/entry_points.txt\n'}
+[2.721408] (gultepe_pkg) StdoutLine: {'line': b'writing requirements to ../../build/gultepe_pkg/gultepe_pkg.egg-info/requires.txt\n'}
+[2.721593] (gultepe_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/gultepe_pkg/gultepe_pkg.egg-info/top_level.txt\n'}
+[2.721945] (gultepe_pkg) StdoutLine: {'line': b"writing manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'\n"}
+[2.725124] (gultepe_pkg) StdoutLine: {'line': b"reading manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'\n"}
+[2.727371] (gultepe_pkg) StdoutLine: {'line': b"writing manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'\n"}
+[2.727775] (gultepe_pkg) StdoutLine: {'line': b'running build\n'}
+[2.727956] (gultepe_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.728296] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build\n'}
+[2.728697] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib\n'}
+[2.728901] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg\n'}
+[2.729058] (gultepe_pkg) StdoutLine: {'line': b'copying gultepe_pkg/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg\n'}
+[2.729222] (gultepe_pkg) StdoutLine: {'line': b'running install\n'}
+[2.729443] (gultepe_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.730586] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg\n'}
+[2.731041] (gultepe_pkg) StdoutLine: {'line': b'copying /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg\n'}
+[2.732129] (gultepe_pkg) StdoutLine: {'line': b'byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.732526] (gultepe_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.733534] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index\n'}
+[2.734044] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index\n'}
+[2.734367] (gultepe_pkg) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index/packages\n'}
+[2.734542] (gultepe_pkg) StdoutLine: {'line': b'copying resource/gultepe_pkg -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index/packages\n'}
+[2.734701] (gultepe_pkg) StdoutLine: {'line': b'copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/gultepe_pkg\n'}
+[2.734852] (gultepe_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.738329] (gultepe_pkg) StdoutLine: {'line': b'Copying ../../build/gultepe_pkg/gultepe_pkg.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg-0.0.0-py3.10.egg-info\n'}
+[2.740017] (gultepe_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.791040] (gultepe_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/install.log'\n"}
+[2.814110] (-) TimerEvent: {}
+[2.842465] (gultepe_pkg) CommandEnded: {'returncode': 0}
+[2.914313] (-) TimerEvent: {}
+[2.981367] (gultepe_pkg) JobEnded: {'identifier': 'gultepe_pkg', 'rc': 0}
+[2.982865] (-) EventReactorShutdown: {}

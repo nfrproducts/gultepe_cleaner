@@ -1,0 +1,18 @@
+[0.556s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build --no-deps install_data
+[0.733s] running develop
+[0.847s] running egg_info
+[0.847s] writing gultepe_scripts.egg-info/PKG-INFO
+[0.847s] writing dependency_links to gultepe_scripts.egg-info/dependency_links.txt
+[0.847s] writing entry points to gultepe_scripts.egg-info/entry_points.txt
+[0.847s] writing requirements to gultepe_scripts.egg-info/requires.txt
+[0.847s] writing top-level names to gultepe_scripts.egg-info/top_level.txt
+[0.849s] reading manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+[0.854s] writing manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+[0.856s] running build_ext
+[0.856s] Creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe-scripts.egg-link (link to .)
+[0.856s] Installing grid_sweeper script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+[0.856s] Installing nav_cmd_test script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+[0.856s] 
+[0.856s] Installed /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts
+[0.856s] running install_data
+[0.878s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build --no-deps install_data

@@ -1,0 +1,24 @@
+[1.952s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build --no-deps install_data
+[2.645s] running develop
+[3.051s] running egg_info
+[3.051s] creating gultepe_scripts.egg-info
+[3.051s] writing gultepe_scripts.egg-info/PKG-INFO
+[3.052s] writing dependency_links to gultepe_scripts.egg-info/dependency_links.txt
+[3.052s] writing entry points to gultepe_scripts.egg-info/entry_points.txt
+[3.052s] writing requirements to gultepe_scripts.egg-info/requires.txt
+[3.053s] writing top-level names to gultepe_scripts.egg-info/top_level.txt
+[3.053s] writing manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+[3.056s] reading manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+[3.058s] writing manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+[3.061s] running build_ext
+[3.061s] Creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe-scripts.egg-link (link to .)
+[3.063s] Installing grid_sweeper script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+[3.063s] 
+[3.064s] Installed /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts
+[3.064s] running install_data
+[3.064s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index
+[3.065s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index
+[3.065s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index/packages
+[3.065s] copying resource/gultepe_scripts -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index/packages
+[3.065s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/gultepe_scripts
+[3.125s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build --no-deps install_data

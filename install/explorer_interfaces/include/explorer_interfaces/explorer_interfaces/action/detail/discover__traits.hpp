@@ -1,1 +1,0 @@
-/home/shared/projects/gultepe/cleaner_ws/build/explorer_interfaces/rosidl_generator_cpp/explorer_interfaces/action/detail/discover__traits.hpp

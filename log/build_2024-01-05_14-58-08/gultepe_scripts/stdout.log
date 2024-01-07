@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating gultepe_scripts.egg-info
+writing gultepe_scripts.egg-info/PKG-INFO
+writing dependency_links to gultepe_scripts.egg-info/dependency_links.txt
+writing entry points to gultepe_scripts.egg-info/entry_points.txt
+writing requirements to gultepe_scripts.egg-info/requires.txt
+writing top-level names to gultepe_scripts.egg-info/top_level.txt
+writing manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+reading manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+writing manifest file 'gultepe_scripts.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe-scripts.egg-link (link to .)
+Installing grid_sweeper script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+
+Installed /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts
+running install_data
+creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index/packages
+copying resource/gultepe_scripts -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index/packages
+copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/gultepe_scripts

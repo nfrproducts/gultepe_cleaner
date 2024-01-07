@@ -1,0 +1,33 @@
+[2.076s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_pkg': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gultepe_pkg build --build-base /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build install --record /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/install.log --single-version-externally-managed
+[2.718s] running egg_info
+[2.719s] creating ../../build/gultepe_pkg/gultepe_pkg.egg-info
+[2.720s] writing ../../build/gultepe_pkg/gultepe_pkg.egg-info/PKG-INFO
+[2.720s] writing dependency_links to ../../build/gultepe_pkg/gultepe_pkg.egg-info/dependency_links.txt
+[2.720s] writing entry points to ../../build/gultepe_pkg/gultepe_pkg.egg-info/entry_points.txt
+[2.721s] writing requirements to ../../build/gultepe_pkg/gultepe_pkg.egg-info/requires.txt
+[2.721s] writing top-level names to ../../build/gultepe_pkg/gultepe_pkg.egg-info/top_level.txt
+[2.721s] writing manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'
+[2.724s] reading manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'
+[2.727s] writing manifest file '../../build/gultepe_pkg/gultepe_pkg.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.727s] running build_py
+[2.728s] creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build
+[2.728s] creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib
+[2.728s] creating /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg
+[2.728s] copying gultepe_pkg/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg
+[2.728s] running install
+[2.729s] running install_lib
+[2.730s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg
+[2.730s] copying /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build/lib/gultepe_pkg/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg
+[2.731s] byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg/__init__.py to __init__.cpython-310.pyc
+[2.732s] running install_data
+[2.733s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index
+[2.733s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index
+[2.734s] creating /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index/packages
+[2.734s] copying resource/gultepe_pkg -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/ament_index/resource_index/packages
+[2.734s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/share/gultepe_pkg
+[2.734s] running install_egg_info
+[2.738s] Copying ../../build/gultepe_pkg/gultepe_pkg.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages/gultepe_pkg-0.0.0-py3.10.egg-info
+[2.739s] running install_scripts
+[2.790s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/install.log'
+[2.842s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_pkg' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gultepe_pkg build --build-base /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/build install --record /home/shared/projects/gultepe/cleaner_ws/build/gultepe_pkg/install.log --single-version-externally-managed

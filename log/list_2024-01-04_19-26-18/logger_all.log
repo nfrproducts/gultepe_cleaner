@@ -1,0 +1,114 @@
+[4.737s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tunaprogrammer/projects/gultepe/cleaner_ws']
+[4.737s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tunaprogrammer/projects/gultepe/cleaner_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7517313a30>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f7517312140>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f7517312140>>)
+[5.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.032s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tunaprogrammer/projects/gultepe/cleaner_ws'
+[5.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['ignore', 'ignore_ament_install']
+[5.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'ignore'
+[5.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'ignore_ament_install'
+[5.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['colcon_pkg']
+[5.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'colcon_pkg'
+[5.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['colcon_meta']
+[5.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'colcon_meta'
+[5.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['ros']
+[5.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'ros'
+[5.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['cmake', 'python']
+[5.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'cmake'
+[5.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'python'
+[5.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extensions ['python_setup_py']
+[5.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws) by extension 'python_setup_py'
+[5.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[5.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/build) by extension 'ignore'
+[5.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/build) ignored
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/install) by extension 'ignore'
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/install) ignored
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/log) by extension 'ignore'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/log) ignored
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[5.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'ignore'
+[5.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'ignore_ament_install'
+[5.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['colcon_pkg']
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'colcon_pkg'
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['colcon_meta']
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'colcon_meta'
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['ros']
+[5.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'ros'
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['cmake', 'python']
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'cmake'
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'python'
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extensions ['python_setup_py']
+[5.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src) by extension 'python_setup_py'
+[5.091s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[5.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extension 'ignore'
+[5.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extension 'ignore_ament_install'
+[5.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extensions ['colcon_pkg']
+[5.092s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extension 'colcon_pkg'
+[5.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extensions ['colcon_meta']
+[5.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extension 'colcon_meta'
+[5.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extensions ['ros']
+[5.093s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055) by extension 'ros'
+[5.104s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/bno055' with type 'ros.ament_python' and name 'bno055'
+[5.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['ignore', 'ignore_ament_install']
+[5.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ignore'
+[5.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ignore_ament_install'
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['colcon_pkg']
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'colcon_pkg'
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['colcon_meta']
+[5.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'colcon_meta'
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['ros']
+[5.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ros'
+[5.109s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_bringup' with type 'ros.ament_cmake' and name 'cleaner_bringup'
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['ignore', 'ignore_ament_install']
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ignore'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ignore_ament_install'
+[5.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['colcon_pkg']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'colcon_pkg'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['colcon_meta']
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'colcon_meta'
+[5.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['ros']
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ros'
+[5.116s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description' with type 'ros.ament_cmake' and name 'cleaner_description'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['ignore', 'ignore_ament_install']
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'ignore'
+[5.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'ignore_ament_install'
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['colcon_pkg']
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'colcon_pkg'
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['colcon_meta']
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'colcon_meta'
+[5.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['ros']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'ros'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['cmake', 'python']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'cmake'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'python'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extensions ['python_setup_py']
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test) by extension 'python_setup_py'
+[5.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['ignore', 'ignore_ament_install']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'ignore'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'ignore_ament_install'
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['colcon_pkg']
+[5.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'colcon_pkg'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['colcon_meta']
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'colcon_meta'
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['ros']
+[5.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'ros'
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['cmake', 'python']
+[5.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'cmake'
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'python'
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extensions ['python_setup_py']
+[5.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/grid_sweeper_test/map) by extension 'python_setup_py'
+[5.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ignore'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ignore_ament_install'
+[5.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['colcon_pkg']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'colcon_pkg'
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['colcon_meta']
+[5.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'colcon_meta'
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['ros']
+[5.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ros'
+[5.131s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
