@@ -88,7 +88,7 @@ class Field:
 
         # for i in range(0, 91, self.angle_spacing):
         #     self._generate_route(i)
-        self._generate_route(40)
+        self._generate_route(60)
 
 
     def _generate_route(self, angle):
@@ -100,36 +100,24 @@ class Field:
 
         # start_offset = cos(radians(abs(45-angle))) * self.robot_radius_px * sqrt(2)
         start_offset = normal_line._point_projection_len((self.robot_radius_px,)*2)
+        # Bu da kullanılabilir
         end_point_len = normal_line._point_projection_len(self.map.shape[:2])
         end_point = (
             end_point_len * sin(radians(angle)),
             end_point_len * cos(radians(angle))
         )
+        # Bu da kullanılabilir
         # end_point = normal_line._point_projection(self.map.shape[:2])
 
-
-        # DEBUG CIRCLES
-        # debug_point2_len = end_point_len-start_offset
-        # debug_point2 = (
-        #     int(debug_point2_len * sin(radians(angle))),
-        #     int(debug_point2_len * cos(radians(angle)))
-        # )
-        # debug_point1 = (
-        #     int(start_offset * sin(radians(angle))),
-        #     int(start_offset * cos(radians(angle)))
-        # )
-        # self.map = cv2.circle(self.map, debug_point1, int(self.robot_radius_px), (0), -1)
-        # self.map = cv2.circle(self.map, debug_point2, int(self.robot_radius_px), (0), -1)
-
-
         normal_line.set_boundaries((0, 0), end_point)
-        normal_line.draw(self.map)
+        # normal_line.draw(self.map)
 
         total_line_count = ceil((normal_line.length() - 2*start_offset) / self.tool_radius_px) + 1
 
+        all_lines = []
         # generate_the new lines
         new_line_angle = 90 - angle
-        new_line_slope = -1 / tan(radians(angle))
+        new_line_slope = -1 * tan(radians(new_line_angle))
         for j in range(total_line_count):
             # the point is used with the calculated slope to create the new line
             normal_point_distance = start_offset + j * self.tool_radius_px
@@ -142,7 +130,55 @@ class Field:
                 (new_line.get_y(0), 0),
             )
 
-            new_line.draw(self.map, 50)
+            # new_line.draw(self.map, 50)
+            all_lines.append(self._shred_line(new_line))
+
+        for lines in all_lines:
+            for line in lines:
+                print("oh fuck")
+                cv2.line(self.map, line[0], line[1], 100, 1)
+
+
+
+    def _shred_line(self, line):
+        lines = []
+
+        start = None
+        for point in bresenham_line(*line.start, *line.end):
+            try:
+                if self.map[point[1]][point[0]] != 255:
+                    continue
+            except IndexError:
+                continue
+
+            if not self._check_if_visitable_circ(point):
+                if start is not None:
+                    lines.append((start, point))
+                    start = None
+                continue
+
+            if start is None:
+                start = point
+
+        return lines
+
+
+    def _check_if_visitable_circ(self, point):
+        brush_radius_in_px = self.tool_radius_px
+        _map = self.map
+        # check in a circle if there is any non white pixels
+        for y in range(-int(brush_radius_in_px), int(brush_radius_in_px)):
+            for x in range(-brush_radius_in_px, brush_radius_in_px):
+                if x**2 + y**2 <= brush_radius_in_px**2:
+                    value = _map[point[1] + y][point[0] + x]
+                    if value < 240:
+                        self.is_visitable = False
+                        return False
+
+        self.is_visitable = True
+        return True
+
+
 
 
 
@@ -154,7 +190,7 @@ class Line:
     ):
         self.angle = degrees(abs(atan(slope)))
         self.slope = slope
-        self.n = nm
+        self.n = n
 
         self.start = None
         self.end = None
@@ -197,7 +233,6 @@ class Line:
         )
 
 
-
     def get_y(self, x):
         # mx + n = y
         return self.slope*x + self.n
@@ -214,6 +249,37 @@ class Line:
         # n = y - mx
         return point[1] - slope*point[0]
 
+
+def bresenham_line(x0, y0, x1, y1):
+    """Yield pixel coordinates for a line using Bresenham's algorithm."""
+    x0 = int(x0)
+    x1 = int(x1)
+    y0 = int(y0)
+    y1 = int(y1)
+
+    dx = x1 - x0
+    dy = y1 - y0
+    xsign = 1 if dx > 0 else -1
+    ysign = 1 if dy > 0 else -1
+
+    dx = abs(dx)
+    dy = abs(dy)
+
+    if dx > dy:
+        xx, xy, yx, yy = xsign, 0, 0, ysign
+    else:
+        dx, dy = dy, dx
+        xx, xy, yx, yy = 0, ysign, xsign, 0
+
+    D = 2*dy - dx
+    y = 0
+
+    for x in range(dx + 1):
+        yield x0 + x*xx + y*yx, y0 + x*xy + y*yy
+        if D >= 0:
+            y += 1
+            D -= 2*dx
+        D += 2*dy
 
 
 def main():
