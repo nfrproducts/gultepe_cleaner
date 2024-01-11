@@ -4,6 +4,3 @@ source;share/gultepe_scripts/hook/pythonpath.sh
 source;share/gultepe_scripts/hook/ament_prefix_path.ps1
 source;share/gultepe_scripts/hook/ament_prefix_path.dsv
 source;share/gultepe_scripts/hook/ament_prefix_path.sh
-source;../../build/gultepe_scripts/share/gultepe_scripts/hook/pythonpath_develop.ps1
-source;../../build/gultepe_scripts/share/gultepe_scripts/hook/pythonpath_develop.dsv
-source;../../build/gultepe_scripts/share/gultepe_scripts/hook/pythonpath_develop.sh

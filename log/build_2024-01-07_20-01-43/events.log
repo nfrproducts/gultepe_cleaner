@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000806] (-) JobUnselected: {'identifier': 'cleaner_bringup'}
+[0.000873] (-) JobUnselected: {'identifier': 'cleaner_description'}
+[0.000925] (-) JobUnselected: {'identifier': 'gultepe_scripts'}
+[0.000975] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001035] (differential_drive) JobQueued: {'identifier': 'differential_drive', 'dependencies': OrderedDict()}
+[0.001100] (differential_drive) JobStarted: {'identifier': 'differential_drive'}
+[0.097999] (-) TimerEvent: {}
+[0.201577] (-) TimerEvent: {}
+[0.302226] (-) TimerEvent: {}
+[0.402908] (-) TimerEvent: {}
+[0.503510] (-) TimerEvent: {}
+[0.604101] (-) TimerEvent: {}
+[0.704735] (-) TimerEvent: {}
+[0.805393] (-) TimerEvent: {}
+[0.906039] (-) TimerEvent: {}
+[1.006661] (-) TimerEvent: {}
+[1.107288] (-) TimerEvent: {}
+[1.207891] (-) TimerEvent: {}
+[1.309575] (-) TimerEvent: {}
+[1.410376] (-) TimerEvent: {}
+[1.510939] (-) TimerEvent: {}
+[1.611514] (-) TimerEvent: {}
+[1.712096] (-) TimerEvent: {}
+[1.812709] (-) TimerEvent: {}
+[1.913244] (-) TimerEvent: {}
+[2.013842] (-) TimerEvent: {}
+[2.114414] (-) TimerEvent: {}
+[2.215001] (-) TimerEvent: {}
+[2.315592] (-) TimerEvent: {}
+[2.416187] (-) TimerEvent: {}
+[2.516821] (-) TimerEvent: {}
+[2.617453] (-) TimerEvent: {}
+[2.623622] (differential_drive) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive/build', '--no-deps', 'install_data'], 'cwd': '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive', 'env': {'USER': 'tunaprogrammer', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge/lib:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/src', 'HOME': '/home/tunaprogrammer', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '2532', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install:/home/tunaprogrammer/projects/gultepe/humble_ws/install', 'LOGNAME': 'tunaprogrammer', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'tunaprogrammer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tunaprogrammer/applications:/opt/ros/humble/bin:/home/tunaprogrammer/applications:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuna:@/tmp/.ICE-unix/2514,unix/ubuntuna:/tmp/.ICE-unix/2514', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1c451d1f_4100_4fa7_a086_6bcc688c49e8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'tr_TR.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.516', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5R6ZG2', 'LS_COLORS': 'ow=01;33:ow=01;33', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/python3.10/site-packages:/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack/lib/python3.10/site-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces/local/lib/python3.10/dist-packages:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg/lib/python3.10/site-packages:/home/shared/projects/gultepe/humble_ws/build/catcher:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_simulations:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/turtlebot3_gazebo:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/rplidar_ros:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/multirobot_map_merge:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_bringup:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/cleaner_description:/home/tunaprogrammer/projects/gultepe/humble_ws/install/robot_arise:/home/tunaprogrammer/projects/gultepe/humble_ws/install/test_interfaces'}, 'shell': False}
+[2.717604] (-) TimerEvent: {}
+[2.818199] (-) TimerEvent: {}
+[2.918799] (-) TimerEvent: {}
+[3.019392] (-) TimerEvent: {}
+[3.120006] (-) TimerEvent: {}
+[3.220577] (-) TimerEvent: {}
+[3.321188] (-) TimerEvent: {}
+[3.395410] (differential_drive) StderrLine: {'line': b"/home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.395929] (differential_drive) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.421319] (-) TimerEvent: {}
+[3.521868] (-) TimerEvent: {}
+[3.554862] (differential_drive) StdoutLine: {'line': b'running develop\n'}
+[3.622067] (-) TimerEvent: {}
+[3.722637] (-) TimerEvent: {}
+[3.823206] (-) TimerEvent: {}
+[3.923779] (-) TimerEvent: {}
+[4.024360] (-) TimerEvent: {}
+[4.095545] (differential_drive) StdoutLine: {'line': b'running egg_info\n'}
+[4.095978] (differential_drive) StdoutLine: {'line': b'creating src/differential_drive.egg-info\n'}
+[4.096528] (differential_drive) StdoutLine: {'line': b'writing src/differential_drive.egg-info/PKG-INFO\n'}
+[4.097110] (differential_drive) StdoutLine: {'line': b'writing dependency_links to src/differential_drive.egg-info/dependency_links.txt\n'}
+[4.097831] (differential_drive) StdoutLine: {'line': b'writing entry points to src/differential_drive.egg-info/entry_points.txt\n'}
+[4.098204] (differential_drive) StdoutLine: {'line': b'writing requirements to src/differential_drive.egg-info/requires.txt\n'}
+[4.098748] (differential_drive) StdoutLine: {'line': b'writing top-level names to src/differential_drive.egg-info/top_level.txt\n'}
+[4.099007] (differential_drive) StdoutLine: {'line': b"writing manifest file 'src/differential_drive.egg-info/SOURCES.txt'\n"}
+[4.103275] (differential_drive) StdoutLine: {'line': b"reading manifest file 'src/differential_drive.egg-info/SOURCES.txt'\n"}
+[4.105164] (differential_drive) StdoutLine: {'line': b"writing manifest file 'src/differential_drive.egg-info/SOURCES.txt'\n"}
+[4.109303] (differential_drive) StdoutLine: {'line': b'running build_ext\n'}
+[4.109988] (differential_drive) StdoutLine: {'line': b'Creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/python3.10/site-packages/differential-drive.egg-link (link to src)\n'}
+[4.112138] (differential_drive) StdoutLine: {'line': b'Installing diff_tf script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.112583] (differential_drive) StdoutLine: {'line': b'Installing pid_velocity script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.112972] (differential_drive) StdoutLine: {'line': b'Installing twist_to_motors script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.113471] (differential_drive) StdoutLine: {'line': b'Installing virtual_joystick script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.113843] (differential_drive) StdoutLine: {'line': b'Installing wheel_loopback script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.114082] (differential_drive) StdoutLine: {'line': b'Installing wheel_scaler script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive\n'}
+[4.114527] (differential_drive) StdoutLine: {'line': b'\n'}
+[4.114897] (differential_drive) StdoutLine: {'line': b'Installed /home/shared/projects/gultepe/cleaner_ws/build/differential_drive/src\n'}
+[4.115117] (differential_drive) StdoutLine: {'line': b'running install_data\n'}
+[4.115310] (differential_drive) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/share/differential_drive/launch\n'}
+[4.115498] (differential_drive) StdoutLine: {'line': b'creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/share/differential_drive/config\n'}
+[4.124558] (-) TimerEvent: {}
+[4.186953] (differential_drive) CommandEnded: {'returncode': 0}
+[4.226364] (-) TimerEvent: {}
+[4.327081] (-) TimerEvent: {}
+[4.406605] (differential_drive) JobEnded: {'identifier': 'differential_drive', 'rc': 0}
+[4.408474] (-) EventReactorShutdown: {}

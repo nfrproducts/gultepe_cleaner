@@ -3,6 +3,10 @@
 
     <xacro:include filename="common.xacro"/>
     <xacro:include filename="mobile_base.xacro"/>
-    <xacro:include filename="mobile_base_gazebo.xacro"/>
+
+    <xacro:include filename="common_gazebo.xacro"/>
+    <xacro:include filename="sensor_gazebo.xacro"/>
+    <!-- <xacro:include filename="diff_drive_gazebo.xacro"/> -->
+    <xacro:include filename="ros2_control_gazebo.xacro"/>
 
 </robot>

@@ -1,0 +1,282 @@
+[0.203s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs
+[0.632s] -- The C compiler identification is GNU 11.4.0
+[0.632s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.632s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.632s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.632s] -- Detecting CXX compiler ABI info
+[0.632s] -- Detecting CXX compiler ABI info - done
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.632s] -- Detecting CXX compile features - done
+[0.632s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.632s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.682s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.695s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.909s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.223s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.240s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.240s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.240s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.254s] -- Found PythonExtra: .so  
+[1.278s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.280s] -- Added test 'lint_cmake' to check CMake code style
+[1.281s] -- Added test 'xmllint' to check XML markup files
+[1.285s] -- Configuring done
+[1.302s] -- Generating done
+[1.303s] -- Build files have been written to: /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs
+[1.308s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake /home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs
+[1.308s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs -- -j16 -l16
+[1.331s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.336s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.342s] [  4%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[1.511s] running egg_info
+[1.511s] creating serial_motor_demo_msgs.egg-info
+[1.511s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[1.512s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[1.512s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[1.512s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.513s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.513s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.530s] [  4%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[1.560s] [  4%] Built target serial_motor_demo_msgs__cpp
+[1.566s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.566s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.567s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.573s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[1.573s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[1.573s] [ 17%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[1.611s] [ 19%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[1.634s] [ 19%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.640s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.640s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.641s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.751s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[1.751s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[1.751s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[1.777s] [ 34%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[1.777s] [ 36%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[1.777s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[1.793s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[1.794s] [ 42%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[1.796s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[1.867s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[1.868s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[1.868s] [ 51%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[1.898s] [ 53%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[1.926s] [ 55%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[1.926s] [ 59%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[1.926s] [ 59%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[1.944s] [ 59%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[1.957s] [ 63%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[1.957s] [ 63%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[1.958s] [ 65%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[1.990s] [ 68%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.014s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[2.040s] [ 70%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[2.070s] [ 70%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.128s] [ 72%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.131s] [ 74%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.158s] [ 74%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.175s] [ 74%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.210s] [ 76%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.252s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.264s] [ 76%] Built target serial_motor_demo_msgs
+[2.290s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.607s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.618s] [ 80%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[2.618s] [ 82%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[2.618s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[2.693s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[2.717s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[2.732s] [ 89%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.732s] [ 91%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.732s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.789s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.789s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.789s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.809s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[2.809s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[2.809s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.816s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --build /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs -- -j16 -l16
+[2.877s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs
+[2.882s] -- Install configuration: ""
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[2.882s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[2.883s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[2.883s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.883s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.883s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[2.883s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[2.884s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.884s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.884s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.884s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[2.884s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[2.884s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[2.884s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.884s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[2.884s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.885s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.885s] -- Up-to-date: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[2.885s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[2.886s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[2.886s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.886s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[2.887s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[2.911s] Listing '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[2.911s] Compiling '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[2.911s] Listing '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[2.911s] Compiling '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[2.911s] Compiling '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[2.911s] Compiling '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[2.911s] Compiling '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.914s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.914s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.914s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[2.914s] -- Set runtime path of "/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[2.914s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.915s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.916s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.917s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.917s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.917s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[2.917s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[2.917s] -- Installing: /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[2.918s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_scripts:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/gultepe_pkg:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/differential_drive:/home/tunaprogrammer/projects/gultepe/cleaner_ws/install/bno055:/home/tunaprogrammer/projects/gultepe/humble_ws/install/jetpack:/home/tunaprogrammer/projects/gultepe/humble_ws/install/python_pkg:/home/tunaprogrammer/projects/gultepe/humble_ws/install/catcher:/opt/ros/humble /usr/bin/cmake --install /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo_msgs

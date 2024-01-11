@@ -1,0 +1,173 @@
+[3.274s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'differential-drive', '--symlink-install']
+[3.274s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['differential-drive'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f638686c4c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f63868374f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f63868374f0>>)
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.422s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shared/projects/gultepe/cleaner_ws'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[3.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ignore'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ignore_ament_install'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['colcon_pkg']
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'colcon_pkg'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['colcon_meta']
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'colcon_meta'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extensions ['ros']
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_bringup) by extension 'ros'
+[3.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaner_bringup' with type 'ros.ament_cmake' and name 'cleaner_bringup'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['ignore', 'ignore_ament_install']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ignore'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ignore_ament_install'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['colcon_pkg']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'colcon_pkg'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['colcon_meta']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'colcon_meta'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extensions ['ros']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/cleaner_description) by extension 'ros'
+[3.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cleaner_description' with type 'ros.ament_cmake' and name 'cleaner_description'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['ignore', 'ignore_ament_install']
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'ignore'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'ignore_ament_install'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['colcon_pkg']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'colcon_pkg'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['colcon_meta']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'colcon_meta'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['ros']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'ros'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['cmake', 'python']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'cmake'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'python'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extensions ['python_setup_py']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test) by extension 'python_setup_py'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['ignore', 'ignore_ament_install']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'ignore'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'ignore_ament_install'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['colcon_pkg']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'colcon_pkg'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['colcon_meta']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'colcon_meta'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['ros']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'ros'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['cmake', 'python']
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'cmake'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'python'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extensions ['python_setup_py']
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/grid_sweeper_test/map) by extension 'python_setup_py'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extension 'ignore'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extension 'ignore_ament_install'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extensions ['colcon_pkg']
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extension 'colcon_pkg'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extensions ['colcon_meta']
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extension 'colcon_meta'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extensions ['ros']
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/gultepe_scripts) by extension 'ros'
+[3.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gultepe_scripts' with type 'ros.ament_python' and name 'gultepe_scripts'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extensions ['ignore', 'ignore_ament_install']
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extension 'ignore'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extension 'ignore_ament_install'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extensions ['colcon_pkg']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extension 'colcon_pkg'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extensions ['colcon_meta']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extension 'colcon_meta'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extensions ['ros']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive) by extension 'ros'
+[3.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_differential_drive' with type 'ros.ament_python' and name 'differential_drive'
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[3.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[3.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.544s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'differential-drive' in --packages-select
+[3.703s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bno055' in 'src/bno055'
+[3.703s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cleaner_description' in 'src/cleaner_description'
+[3.703s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'differential_drive' in 'src/ros2_differential_drive'
+[3.703s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gultepe_scripts' in 'src/gultepe_scripts'
+[3.704s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros'
+[3.704s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cleaner_bringup' in 'src/cleaner_bringup'
+[3.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.893s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/tunaprogrammer/projects/gultepe/cleaner_ws/install
+[3.962s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tunaprogrammer/projects/gultepe/humble_ws/install
+[4.012s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[4.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.351s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.399s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.462s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.503s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.ps1'
+[4.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shared/projects/gultepe/cleaner_ws/install/_local_setup_util_ps1.py'
+[4.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.ps1'
+[4.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.sh'
+[4.617s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shared/projects/gultepe/cleaner_ws/install/_local_setup_util_sh.py'
+[4.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.sh'
+[4.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.bash'
+[4.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.bash'
+[4.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shared/projects/gultepe/cleaner_ws/install/local_setup.zsh'
+[4.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shared/projects/gultepe/cleaner_ws/install/setup.zsh'

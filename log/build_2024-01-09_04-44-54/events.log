@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000102] (-) JobUnselected: {'identifier': 'cleaner_bringup'}
+[0.000112] (-) JobUnselected: {'identifier': 'cleaner_description'}
+[0.000121] (-) JobUnselected: {'identifier': 'gultepe_scripts'}
+[0.000130] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000139] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.000149] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs')])}
+[0.000163] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[0.055025] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 1}
+[0.065278] (-) EventReactorShutdown: {}

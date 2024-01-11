@@ -1,8 +1,13 @@
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/cleaner.urdf.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/common.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/common_gazebo.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/diff_drive_gazebo.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base.xacro
-/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base_gazebo.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/ros2_control.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/ros2_control_gazebo.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/sensor_gazebo.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//rviz/cleaner_default.rviz
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//config/my_controllers.yaml
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/ament_index/resource_index/package_run_dependencies/cleaner_description
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/ament_index/resource_index/parent_prefix_path/cleaner_description
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description/environment/ament_prefix_path.sh

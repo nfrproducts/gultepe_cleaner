@@ -1,0 +1,28 @@
+[2.629s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/differential_drive/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/differential_drive/build --no-deps install_data
+[3.395s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.395s]   warnings.warn(
+[3.554s] running develop
+[4.095s] running egg_info
+[4.095s] creating src/differential_drive.egg-info
+[4.096s] writing src/differential_drive.egg-info/PKG-INFO
+[4.096s] writing dependency_links to src/differential_drive.egg-info/dependency_links.txt
+[4.097s] writing entry points to src/differential_drive.egg-info/entry_points.txt
+[4.097s] writing requirements to src/differential_drive.egg-info/requires.txt
+[4.098s] writing top-level names to src/differential_drive.egg-info/top_level.txt
+[4.098s] writing manifest file 'src/differential_drive.egg-info/SOURCES.txt'
+[4.102s] reading manifest file 'src/differential_drive.egg-info/SOURCES.txt'
+[4.104s] writing manifest file 'src/differential_drive.egg-info/SOURCES.txt'
+[4.108s] running build_ext
+[4.109s] Creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/python3.10/site-packages/differential-drive.egg-link (link to src)
+[4.111s] Installing diff_tf script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.112s] Installing pid_velocity script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.112s] Installing twist_to_motors script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.113s] Installing virtual_joystick script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.113s] Installing wheel_loopback script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.113s] Installing wheel_scaler script to /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/differential_drive
+[4.114s] 
+[4.114s] Installed /home/shared/projects/gultepe/cleaner_ws/build/differential_drive/src
+[4.114s] running install_data
+[4.114s] creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/share/differential_drive/launch
+[4.115s] creating /home/shared/projects/gultepe/cleaner_ws/install/differential_drive/share/differential_drive/config
+[4.186s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/differential_drive' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/differential_drive/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/differential_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/differential_drive/build --no-deps install_data

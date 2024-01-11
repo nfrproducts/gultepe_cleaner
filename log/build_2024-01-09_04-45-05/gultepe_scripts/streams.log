@@ -1,0 +1,22 @@
+[0.797s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gultepe_scripts build --build-base /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build install --record /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/install.log --single-version-externally-managed
+[0.958s] running egg_info
+[0.958s] writing ../../build/gultepe_scripts/gultepe_scripts.egg-info/PKG-INFO
+[0.958s] writing dependency_links to ../../build/gultepe_scripts/gultepe_scripts.egg-info/dependency_links.txt
+[0.958s] writing entry points to ../../build/gultepe_scripts/gultepe_scripts.egg-info/entry_points.txt
+[0.958s] writing requirements to ../../build/gultepe_scripts/gultepe_scripts.egg-info/requires.txt
+[0.958s] writing top-level names to ../../build/gultepe_scripts/gultepe_scripts.egg-info/top_level.txt
+[0.959s] reading manifest file '../../build/gultepe_scripts/gultepe_scripts.egg-info/SOURCES.txt'
+[0.960s] writing manifest file '../../build/gultepe_scripts/gultepe_scripts.egg-info/SOURCES.txt'
+[0.960s] running build
+[0.960s] running build_py
+[0.960s] running install
+[0.961s] running install_lib
+[0.961s] running install_data
+[0.962s] running install_egg_info
+[0.963s] removing '/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts-0.0.0-py3.10.egg-info' (and everything under it)
+[0.963s] Copying ../../build/gultepe_scripts/gultepe_scripts.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts-0.0.0-py3.10.egg-info
+[0.964s] running install_scripts
+[0.977s] Installing grid_sweeper script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+[0.977s] Installing nav_cmd_test script to /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/gultepe_scripts
+[0.977s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/install.log'
+[0.995s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gultepe_scripts build --build-base /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/build install --record /home/shared/projects/gultepe/cleaner_ws/build/gultepe_scripts/install.log --single-version-externally-managed

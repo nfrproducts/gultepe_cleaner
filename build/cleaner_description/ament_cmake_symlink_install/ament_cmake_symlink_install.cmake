@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "rviz" "DESTINATION" "share/cleaner_description/")
-ament_cmake_symlink_install_directory("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description" DIRECTORY "urdf" "rviz" "DESTINATION" "share/cleaner_description/")
+# install(DIRECTORY "urdf" "rviz" "config" "DESTINATION" "share/cleaner_description/")
+ament_cmake_symlink_install_directory("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description" DIRECTORY "urdf" "rviz" "config" "DESTINATION" "share/cleaner_description/")
 
 # install(FILES "/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cleaner_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description" FILES "/home/shared/projects/gultepe/cleaner_ws/build/cleaner_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cleaner_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

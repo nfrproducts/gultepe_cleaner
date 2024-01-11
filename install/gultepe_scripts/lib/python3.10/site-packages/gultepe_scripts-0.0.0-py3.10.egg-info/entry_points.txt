@@ -1,0 +1,4 @@
+[console_scripts]
+grid_sweeper = gultepe_scripts.grid_sweeper:main
+nav_cmd_test = gultepe_scripts.nav_bridge:test
+
