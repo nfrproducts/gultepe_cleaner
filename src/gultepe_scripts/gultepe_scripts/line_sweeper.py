@@ -78,14 +78,20 @@ class Field:
 
 
     def generate_best_route(self):
-        # this function will be the main function that will start drawing lines,
+        #   this function will be the main function that will start drawing lines,
         # we will start by getting the starting point using robot radius, and then
         # draw a line from that point to the end of the map, then using brehenam's line
         # algorithm, we will get a pixel list of some sorts, and then we will check if
         # any of those pixels are occupied, if they are, we will stop the line drawing
         # and then we will start drawing another line from the end of the previous line
         # to the end of the map, and then we will repeat the process until we reach the
-        # end of the map.
+        # end of the map. This is the first step of the algorithm.
+
+        #   the second step will connect the line starts and ends. i am thinking of using
+        # a* algorithm. After it connects all the lines, a route score will be calculated
+        # based on the length of the route and number of turns. (Because i want the robot
+        # to go straight as possible) And then we will select the highest scored route
+
 
         # for i in range(1, 90, self.angle_spacing):
         #     self._generate_route(radians(i))
@@ -106,13 +112,114 @@ class Route:
         self.tool_diameter_px = self.tool_radius_px * 2
 
         self.all_lines = []
+
+        self.unconnected_lines = []
+        self.connected_lines = []
+
         self.angle = angle
         self.map = _map
 
-        self._generate_lines()
+        self.generate_lines()
+        self.unconnected_lines = self.all_lines.copy()
+
+        complicated_mathematical_formulas_result, \
+                line_index, point_index = self._select_starting_point()
+
+        print("[ Done Calculating ] Best company in the world: ", \
+                complicated_mathematical_formulas_result)
+
+        self.current_point = self.all_lines[0][line_index][point_index]
+
+        self.connect_lines()
 
 
-    def _generate_lines(self):
+    def connect_lines(self):
+        # self.current_point belirlenmiş olmalı
+        # for i, lines in enumerate(self.unconnected_lines):
+        pass
+
+
+    def _select_starting_point(self):
+        # check the distance to the origin
+        # and return that lines index
+
+        best_point_index = 0, 0
+        min_distance = float("inf")
+        for i, line in enumerate(self.all_lines):
+            for j in range(2):
+                x, y = line[j]
+                distance = sqrt(x**2 + y**2)
+                if distance < min_distance:
+                    best_point_index = i, j
+                    min_distance = distance
+
+        return "NFR Products", *best_point_index
+
+
+    def _select_next_point(self, num_astar_targets=10):
+        # this function will first find the first x number of
+        # points that is closest to the self.current_point and
+        # then run an a* path finding algorithm to see which
+        # one is the closest the current point really. (Because
+        # there is walls and stuff) and then return that point
+        # btw a* will use the pixel values of the map, not the
+        # lines. (Because the lines are not connected yet)
+
+        # num_astar_targets is a powerfull parameter, and it MUST
+        # be tuned correctly for the program to both work and be
+        # fast. If it is too low, the program will not work as expected
+        # and will not find the best routes, if it is too high, the
+        # program will take 1293812938 years to finish.
+        pass
+
+
+    # def _select_starting_point_old(self):
+    #     best_score = 0
+    #     best_point_index = [0, 0]
+    #     is_at_the_end = False
+
+    #     # başlangıçtaki tüm çizgiler için
+    #     for i, line in enumerate(self.all_lines[0]):
+    #         for j in range(2):
+    #             _, score = self._select_next_point_from_line(line[j], 1)
+    #             if score > best_score:
+    #                 best_score = score
+    #                 best_point_index = [i, j]
+    #                 is_at_the_end = False
+
+    #     # sondaki tüm çizgiler için
+    #     for i, line in enumerate(self.all_lines[-1]):
+    #         for j in range(2):
+    #             _, score = self._select_next_point_from_line(line[j], len(self.all_lines)-2)
+    #             if score > best_score:
+    #                 best_score = score
+    #                 best_point_index = [i, j]
+    #                 is_at_the_end = True
+
+    #     if is_at_the_end:
+    #         self.all_lines.reverse()
+
+    #     # 1-best_point_index[1] çünkü en yüksek skoru bir çizginin
+    #     # sonu aldıysa bizim başlangıç noktamız o çizginin başı olmalı
+
+    #     # 0. sıradaki, i.lineın, başlangıç ya da son noktası
+    #     return [0, best_point_index[0], 1-best_point_index[1]]
+
+
+    # def _select_next_point_from_line(self, current_point, next_line_index):
+    #     """
+    #     returns: point, score
+    #     """
+    #     return None, None
+
+
+    # def _select_next_point(self, current_point):
+    #     # select best point from all the points -> self.all_points
+    #     return None, None
+
+
+
+    def generate_lines(self):
         angle = self.angle
         # angle in degrees
         angle = pi/2 if angle >= pi/2 else angle
@@ -144,7 +251,13 @@ class Route:
             )
 
             # new_line.draw(self.map, 50)
-            self.all_lines.append(self._shred_line(new_line))
+            # self.all_lines.append(self._shred_line(new_line))
+            # Boş arrayler doluluk yapmasın
+            if len(result := self._shred_line(new_line)) != 0:
+                # linları iki boyutlu yapmak için aşağıdaki satırı kullanabilirsin
+                # self.all_lines.append(result)
+                self.all_lines += result
+
             print(f"{j/total_line_count*100:.2f}%")
 
         for lines in self.all_lines:
