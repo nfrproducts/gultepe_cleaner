@@ -69,6 +69,7 @@ class Field:
         self.map = _map
         self.robot_radius_px = robot_radius_px
         self.tool_radius_px = tool_radius_px
+        self.tool_diameter_px = self.tool_radius_px * 2
         self.angle_spacing = angle_spacing
 
         # height and width
@@ -86,58 +87,70 @@ class Field:
         # to the end of the map, and then we will repeat the process until we reach the
         # end of the map.
 
-        # for i in range(0, 91, self.angle_spacing):
-        #     self._generate_route(i)
-        self._generate_route(60)
+        # for i in range(1, 90, self.angle_spacing):
+        #     self._generate_route(radians(i))
+        new_route = Route(radians(89), self.map, self.robot_radius_px, self.tool_radius_px)
 
 
-    def _generate_route(self, angle):
+
+class Route:
+    def __init__(
+        self,
+        angle,
+        _map,
+        robot_radius_px,
+        tool_radius_px
+    ):
+        self.robot_radius_px = robot_radius_px
+        self.tool_radius_px = tool_radius_px
+        self.tool_diameter_px = self.tool_radius_px * 2
+
+        self.all_lines = []
+        self.angle = angle
+        self.map = _map
+
+        self._generate_lines()
+
+
+    def _generate_lines(self):
+        angle = self.angle
         # angle in degrees
-        angle = 90 if angle > 90 else angle
+        angle = pi/2 if angle >= pi/2 else angle
 
-        slope = tan(angle)
-        normal_line = Line(slope, Line.get_n(slope, (0, 0)))
+        normal_line = Line(angle, 0)
 
-        # start_offset = cos(radians(abs(45-angle))) * self.robot_radius_px * sqrt(2)
+        # Bu da kullanılabilir
+        normal_line_end = normal_line._point_projection(self.map.shape[:2])
+        normal_line.set_boundaries((0, 0), normal_line_end)
+        normal_line.draw(self.map)
+
         start_offset = normal_line._point_projection_len((self.robot_radius_px,)*2)
-        # Bu da kullanılabilir
-        end_point_len = normal_line._point_projection_len(self.map.shape[:2])
-        end_point = (
-            end_point_len * sin(radians(angle)),
-            end_point_len * cos(radians(angle))
-        )
-        # Bu da kullanılabilir
-        # end_point = normal_line._point_projection(self.map.shape[:2])
 
-        normal_line.set_boundaries((0, 0), end_point)
-        # normal_line.draw(self.map)
+        total_line_count = ceil((normal_line.length() - 2*start_offset) / self.tool_diameter_px) + 1
 
-        total_line_count = ceil((normal_line.length() - 2*start_offset) / self.tool_radius_px) + 1
-
-        all_lines = []
-        # generate_the new lines
-        new_line_angle = 90 - angle
-        new_line_slope = -1 * tan(radians(new_line_angle))
+        self.all_lines = []
+        # generate the new lines
+        new_line_angle = pi - angle
         for j in range(total_line_count):
             # the point is used with the calculated slope to create the new line
-            normal_point_distance = start_offset + j * self.tool_radius_px
-            normal_point = (normal_point_distance*sin(radians(angle)),
-                            normal_point_distance*cos(radians(angle)))
+            normal_point_distance = start_offset + j * self.tool_diameter_px
+            normal_point = (normal_point_distance*sin((angle)),
+                            normal_point_distance*cos((angle)))
 
-            new_line = Line(new_line_slope, Line.get_n(new_line_slope, normal_point))
+            new_line = Line.from_angle_and_point(new_line_angle, normal_point)
             new_line.set_boundaries(
                 (0, new_line.get_x(0)),
                 (new_line.get_y(0), 0),
             )
 
             # new_line.draw(self.map, 50)
-            all_lines.append(self._shred_line(new_line))
+            self.all_lines.append(self._shred_line(new_line))
+            print(f"{j/total_line_count*100:.2f}%")
 
-        for lines in all_lines:
+        for lines in self.all_lines:
             for line in lines:
-                print("oh fuck")
+                # print("oh fuck")
                 cv2.line(self.map, line[0], line[1], 100, 1)
-
 
 
     def _shred_line(self, line):
@@ -151,7 +164,7 @@ class Field:
             except IndexError:
                 continue
 
-            if not self._check_if_visitable_circ(point):
+            if not _check_if_visitable_circ(self.map, point, self.robot_radius_px):
                 if start is not None:
                     lines.append((start, point))
                     start = None
@@ -163,37 +176,30 @@ class Field:
         return lines
 
 
-    def _check_if_visitable_circ(self, point):
-        brush_radius_in_px = self.tool_radius_px
-        _map = self.map
-        # check in a circle if there is any non white pixels
-        for y in range(-int(brush_radius_in_px), int(brush_radius_in_px)):
-            for x in range(-brush_radius_in_px, brush_radius_in_px):
-                if x**2 + y**2 <= brush_radius_in_px**2:
-                    value = _map[point[1] + y][point[0] + x]
-                    if value < 240:
-                        self.is_visitable = False
-                        return False
-
-        self.is_visitable = True
-        return True
-
-
-
 
 
 class Line:
     def __init__(
         self,
-        slope,
+        angle,
         n,
     ):
-        self.angle = degrees(abs(atan(slope)))
-        self.slope = slope
+        self.angle = angle
+        self.slope = tan(angle)
+
+        # self.angle = degrees(abs(atan(slope)))
+        # self.slope = slope
         self.n = n
 
         self.start = None
         self.end = None
+
+
+    @classmethod
+    def from_angle_and_point(cls, angle, point):
+        slope = tan(angle)
+        n = cls.get_n(slope, point)
+        return Line(angle, n)
 
 
     def set_boundaries(self, start, end):
@@ -222,14 +228,14 @@ class Line:
     def _point_projection_len(self, point):
         # returns the distance from the origin
         x, y = point
-        return cos(abs(atan2(x,y)-radians(self.angle))) * sqrt(x**2 + y**2)
+        return cos(abs(atan2(x,y)-(self.angle))) * sqrt(x**2 + y**2)
 
 
     def _point_projection(self, point):
         len = self._point_projection_len(point)
         return (
-            len * cos(radians(self.angle)),
-            len * sin(radians(self.angle))
+            len * cos((self.angle)),
+            len * sin((self.angle))
         )
 
 
@@ -248,6 +254,18 @@ class Line:
         # mx + n = y
         # n = y - mx
         return point[1] - slope*point[0]
+
+
+def _check_if_visitable_circ(_map, point, radius):
+    # check in a circle if there is any non white pixels
+    for y in range(-int(radius), int(radius)):
+        for x in range(-radius, radius):
+            if x**2 + y**2 <= radius**2:
+                value = _map[point[1] + y][point[0] + x]
+                if value < 240:
+                    return False
+    return True
+
 
 
 def bresenham_line(x0, y0, x1, y1):
