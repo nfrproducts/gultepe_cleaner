@@ -120,23 +120,41 @@ class Route:
         self.map = _map
 
         self.generate_lines()
-        self.unconnected_lines = self.all_lines.copy()
-
-        complicated_mathematical_formulas_result, \
-                line_index, point_index = self._select_starting_point()
-
-        print("[ Done Calculating ] Best company in the world: ", \
-                complicated_mathematical_formulas_result)
-
-        self.current_point = self.all_lines[0][line_index][point_index]
-
         self.connect_lines()
 
 
     def connect_lines(self):
-        # self.current_point belirlenmiş olmalı
-        # for i, lines in enumerate(self.unconnected_lines):
-        pass
+        self.init_line_connection()
+
+        # get the other point on the line
+        other_point = self.unconnected_lines[self.crt_line_idx][1-self.crt_point_idx]
+
+        while len(self.unconnected_lines) > 0:
+            # sonraki noktayı al
+            new_line_idx, new_point_idx = self._select_next_point(other_point)
+            self.connected_lines.append(self.unconnected_lines[self.crt_line_idx])
+
+            # eski çizgi arrayde yenisinden daha
+            # gerideyse yeni indexi bir azalt çünkü
+            # eskisini sildiğimizde o da geri kayacak
+            if self.crt_line_idx < new_line_idx:
+                new_line_idx -= 1
+            del self.unconnected_lines[self.crt_line_idx]
+
+            self.crt_line_idx, self.crt_point_idx = new_line_idx, new_point_idx
+            other_point = self.unconnected_lines[self.crt_line_idx][1-self.crt_point_idx]
+
+
+    def init_line_connection(self):
+        # Bağlanmış ve bağlanmamış çizgileri sıfırla
+        self.connect_lines = []
+        self.unconnected_lines = self.all_lines.copy()
+
+        complicated_mathematical_formulas_result, \
+                self.crt_line_idx, self.crt_point_idx = self._select_starting_point()
+
+        print("[ Done Calculating ] Best company in the world: ", \
+                complicated_mathematical_formulas_result)
 
 
     def _select_starting_point(self):
@@ -156,7 +174,9 @@ class Route:
         return "NFR Products", *best_point_index
 
 
-    def _select_next_point(self, num_astar_targets=10):
+    def _select_next_point(self, current_point=None, num_astar_targets=6):
+        # this will use self.unconnected_lines array not self.all_lines
+
         # this function will first find the first x number of
         # points that is closest to the self.current_point and
         # then run an a* path finding algorithm to see which
@@ -170,53 +190,146 @@ class Route:
         # fast. If it is too low, the program will not work as expected
         # and will not find the best routes, if it is too high, the
         # program will take 1293812938 years to finish.
-        pass
+        current_point = self.current_point if current_point is None else current_point
+
+        # Bizim noktamıza en yakın x noktayı bul
+        closest_point_indexes = self._find_closest_points(current_point, num_astar_targets)
+        closest_points = [self.unconnected_lines[i][j] for i, j in closest_point_indexes]
+
+        best_point = self._run_astar_multiple(closest_points)
+
+        target_i = closest_points.find(best_point)
+        line_index, point_index = closest_point_indexes[target_i]
+        return line_index, point_index
 
 
-    # def _select_starting_point_old(self):
-    #     best_score = 0
-    #     best_point_index = [0, 0]
-    #     is_at_the_end = False
+    def _find_closest_points(self, current_point, num_points):
+        # implementation to find the closest points to self.current_point
+        # based on the given number of points (num_points)
+        collected_points = []
 
-    #     # başlangıçtaki tüm çizgiler için
-    #     for i, line in enumerate(self.all_lines[0]):
-    #         for j in range(2):
-    #             _, score = self._select_next_point_from_line(line[j], 1)
-    #             if score > best_score:
-    #                 best_score = score
-    #                 best_point_index = [i, j]
-    #                 is_at_the_end = False
+        cx, cy = current_point
+        for i, line in enumerate(self.all_lines):
+            for j in range(2):
+                nx, ny = self.unconnected_lines[line][j]
+                distance = sqrt((nx-cx)**2 + (ny-cy)**2)
 
-    #     # sondaki tüm çizgiler için
-    #     for i, line in enumerate(self.all_lines[-1]):
-    #         for j in range(2):
-    #             _, score = self._select_next_point_from_line(line[j], len(self.all_lines)-2)
-    #             if score > best_score:
-    #                 best_score = score
-    #                 best_point_index = [i, j]
-    #                 is_at_the_end = True
+                rv = self.__is_good_enough(distance, collected_points, num_points)
+                if rv > 0:
+                    collected_points[rv] = (distance, i, j)
 
-    #     if is_at_the_end:
-    #         self.all_lines.reverse()
-
-    #     # 1-best_point_index[1] çünkü en yüksek skoru bir çizginin
-    #     # sonu aldıysa bizim başlangıç noktamız o çizginin başı olmalı
-
-    #     # 0. sıradaki, i.lineın, başlangıç ya da son noktası
-    #     return [0, best_point_index[0], 1-best_point_index[1]]
+        return [(i, j) for (_, i, j) in collected_points]
 
 
-    # def _select_next_point_from_line(self, current_point, next_line_index):
-    #     """
-    #     returns: point, score
-    #     """
-    #     return None, None
+    def __is_good_enough(self, distance, collected_points, num_points):
+        # i hate naming things
+
+        # Öncelikle liste tamamen dolu değilse kim olursa olsun ekle
+        if len(collected_points) < num_points:
+            # Bu fonksiyondan sonra direkt olarak indexe yazıldığı
+            # için araya filler bir şey koymam gerekiyor
+            collected_points.append(None)
+            return len(collected_points)-1
+
+        # en uzak noktayı bul
+        worst_distance = 0
+        worst_index = None
+        for i, (collected_distance, _, _) in collected_points:
+            if collected_distance > worst_distance:
+                worst_distance = collected_distance
+                worst_index = i
+
+        # en uzak nokta bizimkinden
+        # daha uzaksa onun yerine yaz
+        if distance < worst_distance:
+            return worst_index
+
+        return -1
 
 
-    # def _select_next_point(self, current_point):
-    #     # select best point from all the points -> self.all_points
-    #     return None, None
+    def _run_astar_multiple(self, points):
+        # This really shouldnt return None
+        best_score = 0
+        best_point = None
+        for point in points:
+            score = self._run_astar(point)
+            if score > best_score:
+                best_score = score
+                best_point = point
 
+        return best_point
+
+
+    def _run_astar(self, point):
+        # Calculate the score for the given point
+        score = 0
+
+        # Define the start and goal nodes
+        start_node = self.current_point
+        goal_node = point
+
+        # Create open and closed lists
+        open_list = [start_node]
+        closed_list = []
+
+        # Assign a score to each node
+        g_score = {start_node: 0}
+        f_score = {start_node: self._calculate_heuristic(start_node, goal_node)}
+
+        while open_list:
+            # Find the node with the lowest f_score
+            current_node = min(open_list, key=lambda node: f_score[node])
+
+            if current_node == goal_node:
+                # Goal reached, calculate the final score
+                score = g_score[current_node]
+                break
+
+            open_list.remove(current_node)
+            closed_list.append(current_node)
+
+            # Explore the neighbors of the current node
+            for neighbor in self._get_neighbors(current_node):
+                if neighbor in closed_list:
+                    continue
+
+                # Calculate the tentative g_score for the neighbor
+                tentative_g_score = g_score[current_node] + self._calculate_distance(current_node, neighbor)
+
+                if neighbor not in open_list or tentative_g_score < g_score[neighbor]:
+                    # Update the g_score and f_score for the neighbor
+                    g_score[neighbor] = tentative_g_score
+                    f_score[neighbor] = tentative_g_score + self._calculate_heuristic(neighbor, goal_node)
+
+                    if neighbor not in open_list:
+                        open_list.append(neighbor)
+
+        return score
+
+
+    def _calculate_heuristic(self, node, goal_node):
+        return sqrt((node[0] - goal_node[0])**2 + (node[1] - goal_node[1])**2)
+
+
+    def _calculate_distance(self, node1, node2):
+        return sqrt((node1[0] - node2[0])**2 + (node1[1] - node2[1])**2)
+
+
+    def _get_neighbors(self, node):
+        # Get the neighboring nodes of a given node
+        neighbors = []
+        # Your neighbor calculation code here
+        # Assuming the map is a 2D array where white represents available space
+        for dx in [-1, 0, 1]:
+            for dy in [-1, 0, 1]:
+                if dx == 0 and dy == 0:
+                    continue
+                x = node[0] + dx
+                y = node[1] + dy
+                # x ve y map içindeyse ve beyazsa komşudur
+                if 0 <= x < self.map.shape[0] and 0 <= y < self.map.shape[1] and self.map[x][y] > 250:
+                    neighbors.append((x, y))
+        return neighbors
 
 
     def generate_lines(self):
