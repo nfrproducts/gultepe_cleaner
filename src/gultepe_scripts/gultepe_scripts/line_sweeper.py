@@ -4,9 +4,11 @@ import cv2
 import os
 
 
+# TODO add line connections to total length
+# TODO fix drawed map search stuff
 
 EXAMPLE_MAP_PATH = "/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/gultepe_scripts/map/basic_map"
-DISPLAY_SCALE = 4
+DISPLAY_SCALE = 3
 
 class MainController:
     def __init__(
@@ -38,21 +40,35 @@ class MainController:
             self.robot_radius_px,
             self.tool_radius_px,
         )
+
         print(self.map.shape)
-        self.field.generate_best_route()
+        self.route_generator = self.field.generate_best_route()
+        # self.field.generate_best_route()
 
 
-    def display(self):
-        self.display_map = cv2.resize(self.map, (self.map.shape[1] * DISPLAY_SCALE, self.map.shape[0] * DISPLAY_SCALE))
+    def display(self, display_map=None):
+        display_map = self.map if display_map is None else display_map
+        shape = display_map.shape
+
+        self.display_map = cv2.resize(display_map, (shape[1] * DISPLAY_SCALE, shape[0] * DISPLAY_SCALE))
         cv2.imshow(self.window_name, self.display_map)
 
 
     def update(self):
-        self.display()
         key = cv2.waitKey(1) & 0xFF
+
+        if self.field.current_route is not None:
+            # debugging
+            self.display(self.field.current_route.map)
+        else: self.display()
+
 
         if key == ord("q"):
             return False
+
+        # if key == ord(" "):
+        new_score = next(self.route_generator)
+        print(f"New routes score: {new_score}, angle: {degrees(self.field.current_route.angle)}")
 
         return True
 
@@ -76,6 +92,8 @@ class Field:
         self.h, self.w = self.map.shape[:2]
         self.breaking_point = degrees(atan2(self.w, self.h))
 
+        self.current_route = None
+
 
     def generate_best_route(self):
         #   this function will be the main function that will start drawing lines,
@@ -87,15 +105,46 @@ class Field:
         # to the end of the map, and then we will repeat the process until we reach the
         # end of the map. This is the first step of the algorithm.
 
+
         #   the second step will connect the line starts and ends. i am thinking of using
         # a* algorithm. After it connects all the lines, a route score will be calculated
         # based on the length of the route and number of turns. (Because i want the robot
         # to go straight as possible) And then we will select the highest scored route
 
-
+        # sadece toplam line sayısına göre
+        # min_line_count = float("inf")
+        # min_line_route = None
         # for i in range(1, 90, self.angle_spacing):
-        #     self._generate_route(radians(i))
-        new_route = Route(radians(89), self.map, self.robot_radius_px, self.tool_radius_px)
+        #     new_route = Route(radians(i), self.map, self.robot_radius_px, self.tool_radius_px)
+        #     if new_route.total_line_count < min_line_count:
+        #         min_line_count = new_route.total_line_count
+        #         min_line_route = new_route
+
+        # new_route.connect_lines()
+        # return min_line_route
+
+
+        # Ortalama line uzunluğuna göre
+        best_score = 0
+        best_route = None
+        for i in range(1, 90, self.angle_spacing):
+            new_route = Route(radians(i), self.map.copy(), self.robot_radius_px, self.tool_radius_px)
+
+            # debugging için
+            self.current_route = new_route
+
+            route_score = new_route.length / len(new_route.all_lines)
+            if route_score > best_score:
+                best_score = route_score
+                best_route = new_route
+
+            # debugging
+            yield route_score
+
+        best_route.connect_lines()
+        return best_route
+
+        # new_route = Route(radians(89), self.map, self.robot_radius_px, self.tool_radius_px)
 
 
 
@@ -120,7 +169,16 @@ class Route:
         self.map = _map
 
         self.generate_lines()
-        self.connect_lines()
+        # self.connect_lines()
+
+        self._calculate_length()
+
+
+    def _calculate_length(self):
+        self.length = 0
+        for line in self.all_lines:
+            self.length += sqrt((line[1][0] - line[0][0])**2 + (line[1][1] - line[0][1])**2)
+        return self.length
 
 
     def connect_lines(self):
@@ -174,7 +232,7 @@ class Route:
         return "NFR Products", *best_point_index
 
 
-    def _select_next_point(self, current_point=None, num_astar_targets=6):
+    def _select_next_point(self, current_point=None, num_astar_targets=3):
         # this will use self.unconnected_lines array not self.all_lines
 
         # this function will first find the first x number of
@@ -196,9 +254,8 @@ class Route:
         closest_point_indexes = self._find_closest_points(current_point, num_astar_targets)
         closest_points = [self.unconnected_lines[i][j] for i, j in closest_point_indexes]
 
-        best_point = self._run_astar_multiple(closest_points)
+        target_i = self._run_astar_multiple(closest_points)
 
-        target_i = closest_points.find(best_point)
         line_index, point_index = closest_point_indexes[target_i]
         return line_index, point_index
 
@@ -209,14 +266,17 @@ class Route:
         collected_points = []
 
         cx, cy = current_point
-        for i, line in enumerate(self.all_lines):
+        for i, line in enumerate(self.unconnected_lines):
+            # kendi lineımız üzerinde bir noktaya geri dönmek istemeyiz
+            # zaten döngüye sebep olurdu (heralde)
+            if i == self.crt_line_idx: continue
+
             for j in range(2):
-                nx, ny = self.unconnected_lines[line][j]
+                nx, ny = line[j]
                 distance = sqrt((nx-cx)**2 + (ny-cy)**2)
 
                 rv = self.__is_good_enough(distance, collected_points, num_points)
-                if rv > 0:
-                    collected_points[rv] = (distance, i, j)
+                if rv >= 0: collected_points[rv] = (distance, i, j)
 
         return [(i, j) for (_, i, j) in collected_points]
 
@@ -234,7 +294,7 @@ class Route:
         # en uzak noktayı bul
         worst_distance = 0
         worst_index = None
-        for i, (collected_distance, _, _) in collected_points:
+        for i, (collected_distance, _, _) in enumerate(collected_points):
             if collected_distance > worst_distance:
                 worst_distance = collected_distance
                 worst_index = i
@@ -249,15 +309,21 @@ class Route:
 
     def _run_astar_multiple(self, points):
         # This really shouldnt return None
-        best_score = 0
-        best_point = None
-        for point in points:
-            score = self._run_astar(point)
-            if score > best_score:
-                best_score = score
-                best_point = point
+        # but it does fuck
+        # i really wasnt expecting this
+        #
+        # old me,
+        # what a visionary
 
-        return best_point
+        best_score = float("inf")
+        best_point_idx = None
+        for i, point in enumerate(points):
+            score = self._run_astar(point)
+            if score < best_score:
+                best_score = score
+                best_point_idx = i
+
+        return best_point_idx
 
 
     def _run_astar(self, point):
@@ -265,7 +331,8 @@ class Route:
         score = 0
 
         # Define the start and goal nodes
-        start_node = self.current_point
+        # start_node = self.current_point
+        start_node = self.unconnected_lines[self.crt_line_idx][self.crt_point_idx]
         goal_node = point
 
         # Create open and closed lists
@@ -327,7 +394,7 @@ class Route:
                 x = node[0] + dx
                 y = node[1] + dy
                 # x ve y map içindeyse ve beyazsa komşudur
-                if 0 <= x < self.map.shape[0] and 0 <= y < self.map.shape[1] and self.map[x][y] > 250:
+                if 0 <= x < self.map.shape[0] and 0 <= y < self.map.shape[1] and self.map[x][y] > 200:
                     neighbors.append((x, y))
         return neighbors
 
@@ -342,11 +409,14 @@ class Route:
         # Bu da kullanılabilir
         normal_line_end = normal_line._point_projection(self.map.shape[:2])
         normal_line.set_boundaries((0, 0), normal_line_end)
-        normal_line.draw(self.map)
+        # normal_line.draw(self.map)
 
         start_offset = normal_line._point_projection_len((self.robot_radius_px,)*2)
 
         total_line_count = ceil((normal_line.length() - 2*start_offset) / self.tool_diameter_px) + 1
+
+        # debugging
+        print()
 
         self.all_lines = []
         # generate the new lines
@@ -371,12 +441,16 @@ class Route:
                 # self.all_lines.append(result)
                 self.all_lines += result
 
-            print(f"{j/total_line_count*100:.2f}%")
+            # debugging
+            print(f"{j/total_line_count*100:.2f}%", end="\r")
+        print("Done calculating lines for angle: ", degrees(self.angle))
 
-        for lines in self.all_lines:
-            for line in lines:
-                # print("oh fuck")
-                cv2.line(self.map, line[0], line[1], 100, 1)
+        for line in self.all_lines:
+            # # çizginin uzunluğu olmasa da olur
+            # if line[0] == line[1]:
+            #     cv2.circle(self.map, line[0], 1, 100, 1)
+            # else:
+            cv2.line(self.map, line[0], line[1], 100, 1)
 
 
     def _shred_line(self, line):
