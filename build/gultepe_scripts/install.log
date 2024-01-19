@@ -1,8 +1,12 @@
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/nav_bridge.py
+/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/line_sweeper.py
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/grid_sweeper.py
+/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/test_line_astar.py
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__init__.py
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__pycache__/nav_bridge.cpython-310.pyc
+/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__pycache__/line_sweeper.cpython-310.pyc
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__pycache__/grid_sweeper.cpython-310.pyc
+/home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__pycache__/test_line_astar.cpython-310.pyc
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/lib/python3.10/site-packages/gultepe_scripts/__pycache__/__init__.cpython-310.pyc
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/ament_index/resource_index/packages/gultepe_scripts
 /home/shared/projects/gultepe/cleaner_ws/install/gultepe_scripts/share/gultepe_scripts/package.xml

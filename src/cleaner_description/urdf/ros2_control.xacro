@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 
-<robot xmlns:xacro="hattp://www.ros.org/wiki/xacro">
-
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <ros2_control name="diff_system_gultepe" type="system">
     <hardware>
       <plugin>diffdrive_arduino/diffdrive_arduino</plugin>

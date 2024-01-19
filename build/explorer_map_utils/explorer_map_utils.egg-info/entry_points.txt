@@ -1,3 +1,0 @@
-[console_scripts]
-watchtower = explorer_map_utils.watchtower:main
-

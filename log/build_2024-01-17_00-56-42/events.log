@@ -1,0 +1,27 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.000287] (cleaner_description) JobQueued: {'identifier': 'cleaner_description', 'dependencies': OrderedDict()}
+[0.000317] (gultepe_scripts) JobQueued: {'identifier': 'gultepe_scripts', 'dependencies': OrderedDict()}
+[0.000330] (linear_sweep) JobQueued: {'identifier': 'linear_sweep', 'dependencies': OrderedDict()}
+[0.000344] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000379] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000390] (cleaner_bringup) JobQueued: {'identifier': 'cleaner_bringup', 'dependencies': OrderedDict([('cleaner_description', '/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description')])}
+[0.000403] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs')])}
+[0.000415] (cleaner_description) JobStarted: {'identifier': 'cleaner_description'}
+[0.051340] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.080951] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[0.081631] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.099189] (-) TimerEvent: {}
+[0.144218] (gultepe_scripts) JobStarted: {'identifier': 'gultepe_scripts'}
+[0.199644] (-) TimerEvent: {}
+[0.205288] (linear_sweep) JobStarted: {'identifier': 'linear_sweep'}
+[0.266470] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.299998] (-) TimerEvent: {}
+[0.316790] (cleaner_description) JobEnded: {'identifier': 'cleaner_description', 'rc': 'SIGINT'}
+[0.317557] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 'SIGINT'}
+[0.317733] (gultepe_scripts) JobEnded: {'identifier': 'gultepe_scripts', 'rc': 'SIGINT'}
+[0.317869] (linear_sweep) JobEnded: {'identifier': 'linear_sweep', 'rc': 'SIGINT'}
+[0.317978] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[0.327915] (cleaner_bringup) JobSkipped: {'identifier': 'cleaner_bringup'}
+[0.327954] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[0.327968] (-) EventReactorShutdown: {}

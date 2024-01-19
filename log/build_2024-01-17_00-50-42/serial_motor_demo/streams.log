@@ -1,0 +1,24 @@
+[0.727s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/build install --record /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.908s] /home/tunaprogrammer/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.908s]   warnings.warn(
+[0.928s] running egg_info
+[0.928s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.928s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.930s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.936s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.936s] running install
+[0.936s] running install_lib
+[0.938s] running install_data
+[0.938s] running install_egg_info
+[0.940s] removing '/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.940s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.957s] Installing driver script to /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.957s] Installing gui script to /home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.958s] writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/install.log'
+[0.976s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/shared/projects/gultepe/cleaner_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/build install --record /home/shared/projects/gultepe/cleaner_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

@@ -2,6 +2,7 @@
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/cleaner_gazebo.launch.xml
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/display.launch.py
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/display.launch.xml
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/navigation2.launch.xml
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/occupancy_grid.launch.py
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/test_world.launch.py
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/launch/turtlebot3_world.launch.py
@@ -14,6 +15,7 @@
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/rviz/gultepe_navigation.rviz
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/rviz/tb3_cartographer.rviz
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/rviz/tb3_navigation2.rviz
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/param/gultepe.yaml
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/ament_index/resource_index/package_run_dependencies/cleaner_bringup
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/ament_index/resource_index/parent_prefix_path/cleaner_bringup
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_bringup/share/cleaner_bringup/environment/ament_prefix_path.sh

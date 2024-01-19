@@ -10,7 +10,9 @@ setup.py
 ../../build/gultepe_scripts/gultepe_scripts.egg-info/zip-safe
 gultepe_scripts/__init__.py
 gultepe_scripts/grid_sweeper.py
+gultepe_scripts/line_sweeper.py
 gultepe_scripts/nav_bridge.py
+gultepe_scripts/test_line_astar.py
 resource/gultepe_scripts
 test/test_copyright.py
 test/test_flake8.py

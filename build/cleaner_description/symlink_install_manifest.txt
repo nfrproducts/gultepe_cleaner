@@ -3,6 +3,7 @@
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/common_gazebo.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/diff_drive_gazebo.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base.xacro
+/home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/mobile_base_gazebo_fix.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/ros2_control.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/ros2_control_gazebo.xacro
 /home/shared/projects/gultepe/cleaner_ws/install/cleaner_description/share/cleaner_description//urdf/sensor_gazebo.xacro

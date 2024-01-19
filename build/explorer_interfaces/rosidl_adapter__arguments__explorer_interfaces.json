@@ -1,7 +1,0 @@
-{
-  "package_name": "explorer_interfaces",
-  "non_idl_tuples": [
-    "/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_interfaces:action/Wander.action",
-    "/home/shared/projects/gultepe/cleaner_ws/src/ros2_explorer/explorer_interfaces:action/Discover.action"
-  ]
-}

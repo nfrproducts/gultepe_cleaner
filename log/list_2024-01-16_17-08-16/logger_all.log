@@ -1,0 +1,140 @@
+[0.723s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/shared/projects/gultepe/cleaner_ws']
+[0.723s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/shared/projects/gultepe/cleaner_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2ea138be20>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2ea138a9e0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2ea138a9e0>>)
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.756s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shared/projects/gultepe/cleaner_ws'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/build) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/build) ignored
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/install) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/install) ignored
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/log) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/log) ignored
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/bno055) by extension 'ros'
+[0.767s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/bno055' with type 'ros.ament_python' and name 'bno055'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup) by extension 'ros'
+[0.768s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup' with type 'ros.ament_cmake' and name 'cleaner_bringup'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description) by extension 'ros'
+[0.768s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/cleaner_description' with type 'ros.ament_cmake' and name 'cleaner_description'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts) by extension 'ros'
+[0.769s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/gultepe_scripts' with type 'ros.ament_python' and name 'gultepe_scripts'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep) by extension 'ros'
+[0.769s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/linear_sweep' with type 'ros.ament_python' and name 'linear_sweep'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros) by extension 'ros'
+[0.770s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'python'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo) by extension 'ros'
+[0.772s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs) by extension 'ros'
+[0.773s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shared/projects/gultepe/cleaner_ws/src/serial_motor_demo-main/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

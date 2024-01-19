@@ -1,0 +1,45 @@
+running develop
+Removing /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear-sweep.egg-link (link to .)
+running egg_info
+writing ../../build/linear_sweep/linear_sweep.egg-info/PKG-INFO
+writing dependency_links to ../../build/linear_sweep/linear_sweep.egg-info/dependency_links.txt
+writing entry points to ../../build/linear_sweep/linear_sweep.egg-info/entry_points.txt
+writing requirements to ../../build/linear_sweep/linear_sweep.egg-info/requires.txt
+writing top-level names to ../../build/linear_sweep/linear_sweep.egg-info/top_level.txt
+reading manifest file '../../build/linear_sweep/linear_sweep.egg-info/SOURCES.txt'
+writing manifest file '../../build/linear_sweep/linear_sweep.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build
+creating /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib
+creating /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/route.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/nav2_client.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/main.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/line.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/line_sweeper_old.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+copying linear_sweep/config.py -> /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep
+running install
+running install_lib
+creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/route.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/nav2_client.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/main.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/__init__.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/line.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/line_sweeper_old.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+copying /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build/lib/linear_sweep/config.py -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/route.py to route.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/nav2_client.py to nav2_client.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/main.py to main.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/line.py to line.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/line_sweeper_old.py to line_sweeper_old.cpython-310.pyc
+byte-compiling /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep/config.py to config.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/linear_sweep/linear_sweep.egg-info to /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear_sweep-0.0.0-py3.10.egg-info
+running install_scripts
+Installing linear_sweep_test script to /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/linear_sweep
+writing list of installed files to '/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/install.log'

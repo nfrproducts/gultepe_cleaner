@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot xmlns:xacro="hattp://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <gazebo reference="base_link">
     <material>Gazebo/White</material>
   </gazebo>
@@ -17,21 +17,20 @@
 
   <gazebo reference="brush">
     <material>Gazebo/Blue</material>
+    <mu>0.</mu>
+    <mu2>0.</mu2>
+    <surface>
+      <friction>
+        <ode>
+          <mu>0.</mu>
+          <mu2>0.</mu2>
+        </ode>
+      </friction>
+    </surface>
   </gazebo>
 
   <gazebo reference="base_scan">
     <material>Gazebo/Black</material>
-  </gazebo>
-
-  <gazebo reference="brush">
-    <surface>
-        <friction>
-            <ode>
-                <mu>0.1</mu>
-                <mu2>0.1</mu2>
-            </ode>
-        </friction>
-    </surface>
   </gazebo>
 
 </robot>

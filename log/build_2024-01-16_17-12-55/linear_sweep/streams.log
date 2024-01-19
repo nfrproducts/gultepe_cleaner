@@ -1,0 +1,23 @@
+[0.540s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build --no-deps install_data
+[0.713s] running develop
+[0.823s] running egg_info
+[0.823s] creating linear_sweep.egg-info
+[0.823s] writing linear_sweep.egg-info/PKG-INFO
+[0.823s] writing dependency_links to linear_sweep.egg-info/dependency_links.txt
+[0.823s] writing entry points to linear_sweep.egg-info/entry_points.txt
+[0.823s] writing requirements to linear_sweep.egg-info/requires.txt
+[0.823s] writing top-level names to linear_sweep.egg-info/top_level.txt
+[0.823s] writing manifest file 'linear_sweep.egg-info/SOURCES.txt'
+[0.824s] reading manifest file 'linear_sweep.egg-info/SOURCES.txt'
+[0.824s] writing manifest file 'linear_sweep.egg-info/SOURCES.txt'
+[0.825s] running build_ext
+[0.826s] Creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear-sweep.egg-link (link to .)
+[0.826s] 
+[0.826s] Installed /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep
+[0.826s] running install_data
+[0.826s] creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index
+[0.833s] creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index
+[0.833s] creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index/packages
+[0.833s] copying resource/linear_sweep -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index/packages
+[0.833s] copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/linear_sweep
+[0.853s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build --no-deps install_data

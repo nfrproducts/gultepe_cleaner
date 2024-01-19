@@ -1,0 +1,17 @@
+done
+- Make the code more modular
+- Create a new ros2 package for linear sweep
+- pre Astar path planning
+- Write Nav2 Bridge Node
+- (cancelled) Get map from MapServer
+
+
+todo
+- Encoder-motor setup
+- ros control setup
+- Make the MainController take parameters
+- Write a launchfile
+
+- Improve the debugging and visuals for route planning
+- pre Astar robot radius checking
+- En dış temizlik

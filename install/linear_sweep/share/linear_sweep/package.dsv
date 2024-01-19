@@ -1,0 +1,9 @@
+source;share/linear_sweep/hook/pythonpath.ps1
+source;share/linear_sweep/hook/pythonpath.dsv
+source;share/linear_sweep/hook/pythonpath.sh
+source;share/linear_sweep/hook/ament_prefix_path.ps1
+source;share/linear_sweep/hook/ament_prefix_path.dsv
+source;share/linear_sweep/hook/ament_prefix_path.sh
+source;../../build/linear_sweep/share/linear_sweep/hook/pythonpath_develop.ps1
+source;../../build/linear_sweep/share/linear_sweep/hook/pythonpath_develop.dsv
+source;../../build/linear_sweep/share/linear_sweep/hook/pythonpath_develop.sh

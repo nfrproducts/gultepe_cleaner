@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating linear_sweep.egg-info
+writing linear_sweep.egg-info/PKG-INFO
+writing dependency_links to linear_sweep.egg-info/dependency_links.txt
+writing entry points to linear_sweep.egg-info/entry_points.txt
+writing requirements to linear_sweep.egg-info/requires.txt
+writing top-level names to linear_sweep.egg-info/top_level.txt
+writing manifest file 'linear_sweep.egg-info/SOURCES.txt'
+reading manifest file 'linear_sweep.egg-info/SOURCES.txt'
+writing manifest file 'linear_sweep.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear-sweep.egg-link (link to .)
+
+Installed /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep
+running install_data
+creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index
+creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index/packages
+copying resource/linear_sweep -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/ament_index/resource_index/packages
+copying package.xml -> /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/share/linear_sweep

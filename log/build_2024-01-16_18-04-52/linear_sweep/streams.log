@@ -1,0 +1,17 @@
+[0.506s] Invoking command in '/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build --no-deps install_data
+[0.680s] running develop
+[0.785s] running egg_info
+[0.785s] writing linear_sweep.egg-info/PKG-INFO
+[0.785s] writing dependency_links to linear_sweep.egg-info/dependency_links.txt
+[0.785s] writing entry points to linear_sweep.egg-info/entry_points.txt
+[0.785s] writing requirements to linear_sweep.egg-info/requires.txt
+[0.786s] writing top-level names to linear_sweep.egg-info/top_level.txt
+[0.787s] reading manifest file 'linear_sweep.egg-info/SOURCES.txt'
+[0.787s] writing manifest file 'linear_sweep.egg-info/SOURCES.txt'
+[0.788s] running build_ext
+[0.788s] Creating /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages/linear-sweep.egg-link (link to .)
+[0.788s] Installing linear_sweep_test script to /home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/linear_sweep
+[0.789s] 
+[0.789s] Installed /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep
+[0.789s] running install_data
+[0.805s] Invoked command in '/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep' returned '0': PYTHONPATH=/home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/prefix_override:/home/shared/projects/gultepe/cleaner_ws/install/linear_sweep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shared/projects/gultepe/cleaner_ws/build/linear_sweep/build --no-deps install_data

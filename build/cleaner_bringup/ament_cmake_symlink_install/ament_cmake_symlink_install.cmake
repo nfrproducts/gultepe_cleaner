@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "worlds" "config" "rviz" "DESTINATION" "share/cleaner_bringup")
-ament_cmake_symlink_install_directory("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup" DIRECTORY "launch" "worlds" "config" "rviz" "DESTINATION" "share/cleaner_bringup")
+# install(DIRECTORY "launch" "worlds" "config" "rviz" "param" "DESTINATION" "share/cleaner_bringup")
+ament_cmake_symlink_install_directory("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup" DIRECTORY "launch" "worlds" "config" "rviz" "param" "DESTINATION" "share/cleaner_bringup")
 
 # install(FILES "/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cleaner_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/shared/projects/gultepe/cleaner_ws/src/cleaner_bringup" FILES "/home/shared/projects/gultepe/cleaner_ws/build/cleaner_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cleaner_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
