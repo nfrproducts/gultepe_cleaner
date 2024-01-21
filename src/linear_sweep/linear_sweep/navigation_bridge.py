@@ -31,6 +31,11 @@ class NavigationBridge:
         self.is_waiting = False
 
 
+    def wait_for_nav2(self):
+        while not self.navigator.is_nav2_active():
+            time.sleep(0.01)
+
+
     def wait(self):
         self.is_waiting = True
         while not self.navigator.isTaskComplete():

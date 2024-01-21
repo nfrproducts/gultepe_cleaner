@@ -29,6 +29,26 @@ class Line:
         self.end = end
 
 
+    def calc_boundaries_for_map(self, map_shape):
+        # start: 0, get_y(0)
+        # end: get_x(0), 0
+
+        # to avoid confusion
+        map_h, map_w = map_shape
+
+        s_y = self.get_y(0)
+        start = (0, s_y)
+        if s_y >= map_h:
+            start = (self.get_x(map_h-1), map_h-1)
+
+        e_x = self.get_x(0)
+        end = (e_x, 0)
+        if e_x >= map_w:
+            end = (map_w-1, self.get_y(map_w-1))
+
+        return self.set_boundaries(start, end)
+
+
     def length(self):
         # you have to set boundries to get length
         if self.start is None or self.end is None:

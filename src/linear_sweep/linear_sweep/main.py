@@ -16,18 +16,21 @@ import os
 class MainController:
     def __init__(
         self,
-        robot_radius=2.0,
+        robot_radius=0.5,
         tool_radius=0.28,
         map_metadata_filepath=config.TEST_MAP_METADATA_PATH,
         route_savepath="~/best_route.yaml",
         navigator=None,
+        debug=False,
     ):
         # Calculate the pixel values for the robot and tool radius
         self.init_map_stuff(map_metadata_filepath)
-        self.window_name = "NFR"
 
         self.init_dimensions(robot_radius, tool_radius)
         self.init_route_vars(route_savepath)
+
+        self.debug = debug
+        if debug: return
 
         saved = self.load_best_route()
         if saved is None:
@@ -42,8 +45,8 @@ class MainController:
             point_density=0,
             navigator=navigator
         )
+        self.nav_bridge.wait_for_nav2()
         self.nav_bridge.run_route_as_waypoint()
-
 
 
     def save_best_route(self):
@@ -84,16 +87,16 @@ class MainController:
         # Map stuff
         self.map_metadata_filepath = map_metadata_filepath
         with open(map_metadata_filepath, "r") as file:
-            self.map_metadata = yaml.safe_load(file.read(), "r")
+            self.map_metadata = yaml.safe_load(file.read())
 
         self.map_filepath = self.map_metadata["image"]
         self.resolution = self.map_metadata["resolution"]
         self.map_origin = self.map_metadata["origin"]
 
         self.map = cv2.imread(self.map_filepath, cv2.IMREAD_GRAYSCALE)
-        self.display_map = cv2.resize(self.map, (self.map.shape[1] * config.DISPLAY_SCALE,
-                                                 self.map.shape[0] * config.DISPLAY_SCALE))
-        self.display_map = cv2.cvtColor(self.display_map, cv2.COLOR_GRAY2BGR)
+        # self.display_map = cv2.resize(self.map, (self.map.shape[1] * config.DISPLAY_SCALE,
+        #                                          self.map.shape[0] * config.DISPLAY_SCALE))
+        # self.display_map = cv2.cvtColor(self.display_map, cv2.COLOR_GRAY2BGR)
 
 
     def init_dimensions(self, robot_radius, tool_radius):
@@ -113,16 +116,18 @@ class MainController:
         self.angle_spacing = 3
 
 
-    def display(self, display_map=None):
-        display_map = self.map if display_map is None else display_map
-        shape = display_map.shape
+    # def display(self, display_map=None):
+    #     display_map = self.map if display_map is None else display_map
+    #     shape = display_map.shape
 
-        self.display_map = cv2.resize(display_map, (shape[1] * config.DISPLAY_SCALE,
-                                                    shape[0] * config.DISPLAY_SCALE))
-        cv2.imshow(self.window_name, self.display_map)
+    #     self.display_map = cv2.resize(display_map, (shape[1] * config.DISPLAY_SCALE,
+    #                                                 shape[0] * config.DISPLAY_SCALE))
+    #     cv2.imshow(self.window_name, self.display_map)
 
 
     def update(self):
+        rclpy.spin_once(self.nav_bridge)
+
         return True
         # rclpy.shutdown()
 
@@ -158,24 +163,37 @@ class MainController:
         # Ortalama çizgi uzunluğu en yüksek olan yol, en iyisi
         best_score = 0
         best_route = None
-        for i in range(1, 90, self.angle_spacing):
+        # for i in range(1, 90, self.angle_spacing):
+        for i in range(1, 90, 10):
             new_route = Route(radians(i), _map.copy(), self.robot_radius_px, self.tool_radius_px)
 
             # debugging için
             self.current_route = new_route
 
-            print(f"Route length: {new_route.length}, line_count: {len(new_route.all_lines)}")
-            route_score = new_route.length / len(new_route.all_lines)
+            line_count = len(new_route.all_lines)
+            print(f"Route length: {new_route.length}, line_count: {line_count}")
+            if line_count == 0: continue
+
+            route_score = new_route.length / line_count
             if route_score > best_score:
                 best_score = route_score
                 best_route = new_route
 
             # debugging
             # yield route_score
+            if self.debug: yield False, new_route, route_score
+            print(f"Route score: {route_score}")
 
         print(f"Found best route with score: {best_score}, angle: {degrees(best_route.angle)}")
         self.best_route = best_route
-        self.connected_lines = best_route.connect_lines()
+
+        if self.debug:
+            yield True, best_route, best_score
+
+        else:
+            self.connected_lines = best_route.connect_lines()
+            return best_route, best_score
+
 
 
 
@@ -188,6 +206,7 @@ def main():
 
     cv2.destroyAllWindows()
     print("Linear Sweep Done.")
+
 
 
 if __name__ == "__main__":

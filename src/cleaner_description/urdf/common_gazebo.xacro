@@ -10,9 +10,30 @@
 
   <gazebo reference="right_wheel">
     <material>Gazebo/Black</material>
+    <mu>10.</mu>
+    <mu2>10.</mu2>
+    <surface>
+      <friction>
+        <ode>
+          <mu>10.</mu>
+          <mu2>10.</mu2>
+        </ode>
+      </friction>
+    </surface>
   </gazebo>
+
   <gazebo reference="left_wheel">
     <material>Gazebo/Black</material>
+    <mu>10.</mu>
+    <mu2>10.</mu2>
+    <surface>
+      <friction>
+        <ode>
+          <mu>10.</mu>
+          <mu2>10.</mu2>
+        </ode>
+      </friction>
+    </surface>
   </gazebo>
 
   <gazebo reference="brush">
@@ -27,6 +48,9 @@
         </ode>
       </friction>
     </surface>
+  </gazebo>
+
+  <gazebo reference="brush">
   </gazebo>
 
   <gazebo reference="base_scan">

@@ -326,9 +326,9 @@ class Route:
         normal_line = Line(angle, 0)
 
         # Bu da kullanılabilir
-        normal_line_end = normal_line._point_projection(self.map.shape[:2])
+        normal_line_end = normal_line._point_projection(self.map.shape[::-1])
         normal_line.set_boundaries((0, 0), normal_line_end)
-        # normal_line.draw(self.map)
+        normal_line.draw(self.map, 0)
 
         start_offset = normal_line._point_projection_len((self.robot_radius_px,)*2)
 
@@ -339,37 +339,42 @@ class Route:
 
         self.all_lines = []
         # generate the new lines
-        new_line_angle = pi - angle
+        new_line_angle = pi/2 + angle
         for j in range(total_line_count):
             # the point is used with the calculated slope to create the new line
             normal_point_distance = start_offset + j * self.tool_diameter_px
-            normal_point = (normal_point_distance*sin((angle)),
-                            normal_point_distance*cos((angle)))
+            normal_point = (normal_point_distance*cos((angle)),
+                            normal_point_distance*sin((angle)))
 
             new_line = Line.from_angle_and_point(new_line_angle, normal_point)
-            new_line.set_boundaries(
-                (0, new_line.get_x(0)),
-                (new_line.get_y(0), 0),
-            )
+            # new_line.set_boundaries(
+            #     (0, new_line.get_y(0)),
+            #     (new_line.get_x(0), 0),
+            # )
+            new_line.calc_boundaries_for_map(self.map.shape)
+
 
             # new_line.draw(self.map, 50)
             # self.all_lines.append(self._shred_line(new_line))
             # Boş arrayler doluluk yapmasın
             if len(result := self._shred_line(new_line)) != 0:
-                # linları iki boyutlu yapmak için aşağıdaki satırı kullanabilirsin
+                # lineları iki boyutlu yapmak için aşağıdaki satırı kullanabilirsin
                 # self.all_lines.append(result)
                 self.all_lines += result
+                for line in result:
+                    cv2.line(self.map, line[0], line[1], 100, 1)
+
 
             # debugging
             print(f"{j/total_line_count*100:.2f}%", end="\r")
         print("Done calculating lines for angle: ", degrees(self.angle))
 
-        for line in self.all_lines:
+        # for line in self.all_lines:
             # # çizginin uzunluğu olmasa da olur
             # if line[0] == line[1]:
             #     cv2.circle(self.map, line[0], 1, 100, 1)
             # else:
-            cv2.line(self.map, line[0], line[1], 100, 1)
+            # cv2.line(self.map, line[0], line[1], 100, 1)
 
 
     def _shred_line(self, line):
@@ -377,31 +382,43 @@ class Route:
 
         start = None
         for point in bresenham_line(*line.start, *line.end):
-            try:
-                if self.map[point[1]][point[0]] != 255:
-                    continue
-            except IndexError:
-                continue
-
-            if not _check_if_visitable_circ(self.map, point, self.robot_radius_px):
+            if not _check_if_visitable_circ(self.original_map, point, self.robot_radius_px):
                 if start is not None:
                     lines.append([start, point])
                     start = None
-                continue
 
-            if start is None:
+            elif start is None:
                 start = point
+
+        # son çizgi başlanıp sonlanmadıysa
+        if start is not None:
+            lines.append([start, point])
 
         return lines
 
 
+def _is_point_visitable(_map, x, y, map_outer_rv=False):
+    try:
+        result = _map[y][x] > 210
+
+    except IndexError:
+        return map_outer_rv
+
+    return result
+
 
 def _check_if_visitable_circ(_map, point, radius):
     # check in a circle if there is any non white pixels
+
+    # Sorguladığımız nokta uygun değilse direkt atla
+    if not _is_point_visitable(_map, point[0], point[1], map_outer_rv=False):
+        return False
+
+    # Daha sonra noktanın etrafını kontrol et
     for y in range(-int(radius), int(radius)):
         for x in range(-radius, radius):
             if x**2 + y**2 <= radius**2:
-                value = _map[point[1] + y][point[0] + x]
-                if value < 240:
+                if not _is_point_visitable(_map, point[0]+x,
+                        point[1]+y, map_outer_rv=True):
                     return False
     return True
