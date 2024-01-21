@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "linear_sweep_test = linear_sweep.main:main",
+            "nfr_debugger = linear_sweep.debug:main",
             "nav_bridge = linear_sweep.navigation_bridge:main",
+            "main_controller = linear_sweep.main:main",
         ],
     },
 )

@@ -7,7 +7,7 @@ class SweepDebugger:
     def __init__(self, *a, **kw):
         self.main_controller = MainController(*a, **kw, debug=True)
 
-        self.route_generator = self.main_controller.generate_best_route()
+        self.route_generator = self.main_controller._generate_best_route_debug()
         self.route_gen_idx = -1
         self.best_route = None
 

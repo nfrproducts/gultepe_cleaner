@@ -1,4 +1,0 @@
-[console_scripts]
-linear_sweep_test = linear_sweep.main:main
-nav_bridge = linear_sweep.navigation_bridge:main
-

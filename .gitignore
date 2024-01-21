@@ -1,0 +1,11 @@
+# Ignore Python compiled files
+*.pyc
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore VS Code directories
+.vscode/
+
+# Ignore build directories
+build/

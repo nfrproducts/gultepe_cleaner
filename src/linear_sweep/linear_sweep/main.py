@@ -2,8 +2,10 @@ from linear_sweep.navigation_bridge import NavigationBridge
 from linear_sweep.route import Route
 from linear_sweep import config
 
+from rclpy.node import Node
 from math import *
 import rclpy
+import time
 import yaml
 import cv2
 import os
@@ -13,16 +15,40 @@ import os
 # TODO add line connections to total length
 
 
+class MainControllerNode(Node):
+    def __init__(self, *a, frequency=1/2, **kw):
+        super().__init__('linear_sweeper_node')
+        self.get_logger().info("[ Linear Sweeper ]: Node started, Starting Main Controller...")
+
+        self.main_controller = MainController(*a, **kw)
+
+        self.get_logger().info("[ Linear Sweeper ] Main Controller started.")
+        if self.main_controller.elapsed is not None:
+            e = self.main_controller.elapsed
+            self.get_logger().info(f"[ Linear Sweeper ] Best Route calculated in: {e//60} minutes, {e%60} seconds.")
+
+        self.create_timer(frequency, self.callback_timer)
+
+
+    def callback_timer(self):
+        self.main_controller.update()
+
+
+#   Debuggingi kolaylaştırmak için
+# MainController sınıfını Node yapmadım
 class MainController:
     def __init__(
         self,
-        robot_radius=0.5,
+        robot_radius=0.8,
         tool_radius=0.28,
         map_metadata_filepath=config.TEST_MAP_METADATA_PATH,
         route_savepath="~/best_route.yaml",
         navigator=None,
         debug=False,
     ):
+        # Biraz süre tutalım
+        self.elapsed = None
+
         # Calculate the pixel values for the robot and tool radius
         self.init_map_stuff(map_metadata_filepath)
 
@@ -34,7 +60,7 @@ class MainController:
 
         saved = self.load_best_route()
         if saved is None:
-            self.generate_best_route()
+            self.elapsed, _ = self.timer(self.generate_best_route)
             self.save_best_route()
 
         self.nav_bridge = NavigationBridge(
@@ -45,8 +71,15 @@ class MainController:
             point_density=0,
             navigator=navigator
         )
+
         self.nav_bridge.wait_for_nav2()
         self.nav_bridge.run_route_as_waypoint()
+
+
+    def timer(self, function):
+        start_time = time.time()
+        rv = function()
+        return time.time() - start_time, rv
 
 
     def save_best_route(self):
@@ -59,7 +92,9 @@ class MainController:
             with open(self.route_savepath, "w+") as file:
                 file.write(yaml.dump(self.best_route.connected_lines))
 
-        except PermissionError:
+        # File not found error de veriyorum çünkü normalde w+
+        # yeni dosya oluşturmalı ama oluşturamayınca bu hatadan veriyor
+        except (PermissionError, FileNotFoundError):
             print("Cannot save route.")
             return False
 
@@ -116,23 +151,17 @@ class MainController:
         self.angle_spacing = 3
 
 
-    # def display(self, display_map=None):
-    #     display_map = self.map if display_map is None else display_map
-    #     shape = display_map.shape
-
-    #     self.display_map = cv2.resize(display_map, (shape[1] * config.DISPLAY_SCALE,
-    #                                                 shape[0] * config.DISPLAY_SCALE))
-    #     cv2.imshow(self.window_name, self.display_map)
-
-
     def update(self):
         rclpy.spin_once(self.nav_bridge)
-
         return True
-        # rclpy.shutdown()
 
 
     def generate_best_route(self, _map=None):
+        for i in self._generate_best_route_debug(_map=_map):
+            pass
+
+
+    def _generate_best_route_debug(self, _map=None):
         #   this function will be the main function that will start drawing lines,
         # we will start by getting the starting point using robot radius, and then
         # draw a line from that point to the end of the map, then using brehenam's line
@@ -158,13 +187,13 @@ class MainController:
         # Yorumları türkçe-ingilizce karışık yazdığım için kusura bakmayın iki dilde de
         # yeteri kadar etkin değilim, karışık kullanmayınca kendimi açıklamak zor oluyor
 
+        # print("NFR")
         _map = self.map if _map is None else _map
 
         # Ortalama çizgi uzunluğu en yüksek olan yol, en iyisi
         best_score = 0
         best_route = None
-        # for i in range(1, 90, self.angle_spacing):
-        for i in range(1, 90, 10):
+        for i in range(1, 90, self.angle_spacing):
             new_route = Route(radians(i), _map.copy(), self.robot_radius_px, self.tool_radius_px)
 
             # debugging için
@@ -197,15 +226,30 @@ class MainController:
 
 
 
-def main():
-    print("Linear Sweep Started.")
-    liner = MainController()
+# def main():
+#     print("Linear Sweep Started.")
+#     liner = MainController()
+#     while True:
+#         if not liner.update():
+#             break
+
+#     cv2.destroyAllWindows()
+#     print("Linear Sweep Done.")
+
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    node = MainControllerNode()
+
     while True:
-        if not liner.update():
+        try:
+            rclpy.spin_once(node)
+        except KeyboardInterrupt:
             break
 
-    cv2.destroyAllWindows()
-    print("Linear Sweep Done.")
+    node.get_logger().info("[ Linear Sweep ] Finished.")
+    rclpy.shutdown()
 
 
 
