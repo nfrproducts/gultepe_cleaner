@@ -3,10 +3,11 @@ from linear_sweep.route import Route
 from linear_sweep import config
 
 from rclpy.node import Node
-from math import *
 import rclpy
+
+from math import *
+import json, yaml
 import time
-import yaml
 import cv2
 import os
 
@@ -20,7 +21,25 @@ class MainControllerNode(Node):
         super().__init__('linear_sweeper_node')
         self.get_logger().info("[ Linear Sweeper ]: Node started, Starting Main Controller...")
 
-        self.main_controller = MainController(*a, **kw)
+        # Declare parameters
+        self.declare_parameter("robot_radius", 0.8)
+        self.declare_parameter("tool_radius", 0.28)
+        self.declare_parameter("map", config.TEST_MAP_METADATA_PATH)
+        self.declare_parameter("route_savepath", "route.json")
+
+        robot_radius = self.get_parameter("robot_radius").value
+        tool_radius = self.get_parameter("tool_radius").value
+        map_metadata_filepath = self.get_parameter("map").value
+        route_savepath = self.get_parameter("route_savepath").value
+
+        self.main_controller = MainController(
+            robot_radius=robot_radius,
+            tool_radius=tool_radius,
+            map_metadata_filepath=map_metadata_filepath,
+            route_savepath=route_savepath,
+            navigator=None,
+            debug=False,
+        )
 
         self.get_logger().info("[ Linear Sweeper ] Main Controller started.")
         if self.main_controller.elapsed is not None:
@@ -35,19 +54,22 @@ class MainControllerNode(Node):
 
 
 #   Debuggingi kolaylaştırmak için
-# MainController sınıfını Node yapmadım
+# MainController sınıfını Node yapmadımclass MainControllerNode(Node):
 class MainController:
     def __init__(
         self,
         robot_radius=0.8,
         tool_radius=0.28,
         map_metadata_filepath=config.TEST_MAP_METADATA_PATH,
-        route_savepath="~/best_route.yaml",
+        route_savepath="route.json",
         navigator=None,
         debug=False,
     ):
         # Biraz süre tutalım
         self.elapsed = None
+
+        with open("debug_test_file.txt", "w+") as file:
+            file.write("aaaaaaaa")
 
         # Calculate the pixel values for the robot and tool radius
         self.init_map_stuff(map_metadata_filepath)
@@ -90,7 +112,8 @@ class MainController:
 
         try:
             with open(self.route_savepath, "w+") as file:
-                file.write(yaml.dump(self.best_route.connected_lines))
+                json.dump(self.best_route.connected_lines, file, indent=4)
+                # file.write(yaml.dump(self.best_route.connected_lines))
 
         # File not found error de veriyorum çünkü normalde w+
         # yeni dosya oluşturmalı ama oluşturamayınca bu hatadan veriyor
@@ -109,7 +132,8 @@ class MainController:
 
         try:
             with open(self.route_savepath, "r") as file:
-                route_dict = yaml.safe_load(file.read())
+                # route_dict = yaml.safe_load(file.read())
+                route_dict = json.load(file)
 
         except PermissionError:
             return None

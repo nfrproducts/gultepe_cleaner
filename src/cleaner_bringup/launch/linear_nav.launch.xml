@@ -1,0 +1,24 @@
+<launch>
+    <!-- <let name="robot_parameters" value="$(find-pkg-share cleaner_description)/param/gultepe_params1.yaml"/> -->
+    <let name="robot_parameters" value="/home/tunaprogrammer/projects/gultepe/cleaner_ws/src/cleaner_description/param/gultepe_params1.yaml"/>
+    <let name="map_path" value="/home/tunaprogrammer/maps/basic_map.yaml"/>
+
+    <include file="$(find-pkg-share nav2_bringup)/launch/bringup_launch.py">
+        <arg name="use_sim_time" value="true"/>
+        <arg name="map" value="$(var map_path)"/>
+        <arg name="params_file" value="$(var robot_parameters)"/>
+    </include>
+
+    <include file="$(find-pkg-share nav2_bringup)/launch/rviz_launch.py">
+        <arg name="use_sim_time" value="true"/>
+    </include>
+
+    <node pkg="linear_sweep" exec="main_controller">
+        <!-- "-robot_radius 1.0 -tool_radius 0.28 -map /home/tunapro/maps/basic_map.yaml -route_savepath /home/tunapro/maps/route.yaml"/> -->
+        <param name="robot_radius" value="1.0"/>
+        <param name="tool_radius" value="0.28"/>
+        <param name="map" value="/home/tunaprogrammer/maps/basic_map.yaml"/>
+        <param name="route_savepath" value="route.yaml"/>
+    </node>
+
+</launch>

@@ -4,15 +4,16 @@ done
 - pre Astar path planning
 - Write Nav2 Bridge Node
 - (cancelled) Get map from MapServer
+- Make proper Node
+- Make the MainController take parameters
+
+- Improve the debugging and visuals for route planning
 
 
 todo
-- Make proper Node
 - Encoder-motor setup
 - ros control setup
-- Make the MainController take parameters
 - Write a launchfile
 
-- Improve the debugging and visuals for route planning
 - pre Astar robot radius checking
 - En dış temizlik
